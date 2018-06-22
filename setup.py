@@ -25,7 +25,7 @@ test_requirements = [
 
 setup(
     name='workday',
-    version='0.1.0',
+    version='0.2.0',
     description="Python client for Workday tenants",
     long_description=readme + '\n\n' + history,
     author="Anthony Shaw",
