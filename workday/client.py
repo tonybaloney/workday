@@ -25,29 +25,13 @@ from requests.auth import HTTPBasicAuth
 from .exceptions import WsdlNotProvidedError, WorkdaySoapApiError
 
 
-class AuthMode(object):
-    """
-    Enumeration type for the way that the API is authenticated
-    """
-
-    http_basic = 1
-    ws_security_username = 2
-    ws_security_certificate = 3
-    ws_security_username_and_certificate = 4
-
-
 class WorkdayClient(object):
     """
     Entry point for the workday APIs.
     """
 
     def __init__(
-        self,
-        wsdls,
-        auth_mode=AuthMode.ws_security_username,
-        credentials=None,
-        proxy_url=None,
-        disable_ssl_verification=False,
+        self, wsdls, authentication, proxy_url=None, disable_ssl_verification=False
     ):
         """
         Instantiate a Workday API client
@@ -55,8 +39,8 @@ class WorkdayClient(object):
         :param wsdls: Dictionary of WSDL endpoints to use
         :type  wsdls: ``dict``
 
-        :param auth_mode: The authentication mode, see :class:`AuthMode` for details
-        :type  auth_mode: ``int``
+        :param authentication: Authentication configuration
+        :type  authentication: :class:`workday.auth.BaseAuthentication`
 
         :param credentials: (Optional) tuple of credentials, e.g. username, password depending on auth_mode
         :type  credentials: ``tuple``
@@ -67,12 +51,6 @@ class WorkdayClient(object):
         self.proxy_url = proxy_url
         self._session = requests.Session()
 
-        if auth_mode == AuthMode.http_basic:
-            self._session.auth = requests.auth.HTTPBasicAuth(*credentials)
-
-        if auth_mode == AuthMode.ws_security_username:
-            wsse = UsernameToken(*credentials)
-
         if proxy_url:
             self._session.proxies = {"https": proxy_url}
         if disable_ssl_verification:
@@ -81,10 +59,9 @@ class WorkdayClient(object):
         if "talent" in wsdls:
             self._talent = BaseSoapApiClient(
                 name="talent",
-                service_name="TalentService",
                 session=self._session,
-                wsse=wsse,
                 wsdl_url=wsdls["talent"] + "?wsdl",
+                authentication=authentication,
             )
         else:
             self._talent = None
@@ -101,16 +78,7 @@ class WorkdayClient(object):
 
 
 class BaseSoapApiClient(object):
-    def __init__(
-        self,
-        name,
-        session,
-        wsdl_url,
-        service_name,
-        wsse=None,
-        endpoint_url=None,
-        proxy_url=None,
-    ):
+    def __init__(self, name, session, wsdl_url, authentication, proxy_url=None):
         """
         :param name: Name of this API
         :type  name: ``str``
@@ -121,17 +89,17 @@ class BaseSoapApiClient(object):
         :param wsdl_url: Path to the WSDL
         :type  wsdl_url: ``str``
 
-        :param endpoint_url: (Optional) transport URL, not implemented
-        :type  endpoint_url: ``str``
+        :param authentication: Authentication configuration
+        :type  authentication: :class:`workday.auth.BaseAuthentication`
 
         :param proxy_url: (Optional) HTTP Proxy URL
         :type  proxy_url: ``str``
         """
+        auth_kwargs = authentication.kwargs
         self._client = zeep.Client(
             wsdl=wsdl_url,
-            service_name=service_name,
-            wsse=wsse,
             transport=zeep.transports.Transport(session=session),
+            **auth_kwargs
         )
 
     def __getattr__(self, attr):
@@ -140,4 +108,5 @@ class BaseSoapApiClient(object):
                 return getattr(self._client.service, attr)(*args, **kwargs)
             except zeep.exceptions.Fault as fault:
                 raise WorkdaySoapApiError(fault)
+
         return call_soap_method
