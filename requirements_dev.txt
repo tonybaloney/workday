@@ -1,2 +1,5 @@
 black
 pre-commit
+pytest
+twine
+sphinx

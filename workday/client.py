@@ -20,7 +20,7 @@ import zeep.transports
 from zeep.wsse.username import UsernameToken
 
 import requests
-from requests.auth import (HTTPBasicAuth)
+from requests.auth import HTTPBasicAuth
 
 from .exceptions import WsdlNotProvidedError, WorkdaySoapApiError
 
@@ -29,15 +29,26 @@ class AuthMode(object):
     """
     Enumeration type for the way that the API is authenticated
     """
+
     http_basic = 1
     ws_security_username = 2
+    ws_security_certificate = 3
+    ws_security_username_and_certificate = 4
 
 
 class WorkdayClient(object):
     """
     Entry point for the workday APIs.
     """
-    def __init__(self, wsdls, auth_mode=AuthMode.ws_security_username, credentials=None, proxy_url=None, disable_ssl_verification=False):
+
+    def __init__(
+        self,
+        wsdls,
+        auth_mode=AuthMode.ws_security_username,
+        credentials=None,
+        proxy_url=None,
+        disable_ssl_verification=False,
+    ):
         """
         Instantiate a Workday API client
 
@@ -63,19 +74,18 @@ class WorkdayClient(object):
             wsse = UsernameToken(*credentials)
 
         if proxy_url:
-            self._session.proxies = {
-                'https': proxy_url
-            }
+            self._session.proxies = {"https": proxy_url}
         if disable_ssl_verification:
             self._session.verify = False
 
-        if 'talent' in wsdls:
+        if "talent" in wsdls:
             self._talent = BaseSoapApiClient(
-                name='talent',
-                service_name='TalentService',
+                name="talent",
+                service_name="TalentService",
                 session=self._session,
                 wsse=wsse,
-                wsdl_url=wsdls['talent']+'?wsdl')
+                wsdl_url=wsdls["talent"] + "?wsdl",
+            )
         else:
             self._talent = None
 
@@ -85,13 +95,22 @@ class WorkdayClient(object):
         Access property for the talent-management API
         """
         if self._talent == None:
-            raise WsdlNotProvidedError('talent')
+            raise WsdlNotProvidedError("talent")
         else:
             return self._talent
 
 
 class BaseSoapApiClient(object):
-    def __init__(self, name, session, wsdl_url, service_name, wsse=None, endpoint_url=None, proxy_url=None):
+    def __init__(
+        self,
+        name,
+        session,
+        wsdl_url,
+        service_name,
+        wsse=None,
+        endpoint_url=None,
+        proxy_url=None,
+    ):
         """
         :param name: Name of this API
         :type  name: ``str``
@@ -112,7 +131,8 @@ class BaseSoapApiClient(object):
             wsdl=wsdl_url,
             service_name=service_name,
             wsse=wsse,
-            transport=zeep.transports.Transport(session=session))
+            transport=zeep.transports.Transport(session=session),
+        )
 
     def __getattr__(self, attr):
         try:
