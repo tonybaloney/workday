@@ -13,7 +13,7 @@ def main():
         proxy_url=config.get('proxy_url', None),
         disable_ssl_verification=(config['proxy_url'] != None))
 
-    print(client.talent._client.service)
+    client.talent.Get_Languages()
 
 if __name__ == '__main__':
     main()

@@ -15,12 +15,14 @@
 # limitations under the License.
 
 import zeep
+import zeep.exceptions
 import zeep.transports
+from zeep.wsse.username import UsernameToken
 
 import requests
 from requests.auth import (HTTPBasicAuth)
 
-from .exceptions import WsdlNotProvidedError
+from .exceptions import WsdlNotProvidedError, WorkdaySoapApiError
 
 
 class AuthMode(object):
@@ -28,14 +30,14 @@ class AuthMode(object):
     Enumeration type for the way that the API is authenticated
     """
     http_basic = 1
-    ws_security = 2
+    ws_security_username = 2
 
 
 class WorkdayClient(object):
     """
     Entry point for the workday APIs.
     """
-    def __init__(self, wsdls, auth_mode=AuthMode.http_basic, credentials=None, proxy_url=None, disable_ssl_verification=False):
+    def __init__(self, wsdls, auth_mode=AuthMode.ws_security_username, credentials=None, proxy_url=None, disable_ssl_verification=False):
         """
         Instantiate a Workday API client
 
@@ -56,6 +58,10 @@ class WorkdayClient(object):
 
         if auth_mode == AuthMode.http_basic:
             self._session.auth = requests.auth.HTTPBasicAuth(*credentials)
+
+        if auth_mode == AuthMode.ws_security_username:
+            wsse = UsernameToken(*credentials)
+
         if proxy_url:
             self._session.proxies = {
                 'https': proxy_url
@@ -68,7 +74,8 @@ class WorkdayClient(object):
                 name='talent',
                 service_name='TalentService',
                 session=self._session,
-                wsdl_url=wsdls['talent'])
+                wsse=wsse,
+                wsdl_url=wsdls['talent']+'?wsdl')
         else:
             self._talent = None
 
@@ -84,7 +91,7 @@ class WorkdayClient(object):
 
 
 class BaseSoapApiClient(object):
-    def __init__(self, name, session, wsdl_url, service_name, endpoint_url=None, proxy_url=None):
+    def __init__(self, name, session, wsdl_url, service_name, wsse=None, endpoint_url=None, proxy_url=None):
         """
         :param name: Name of this API
         :type  name: ``str``
@@ -104,8 +111,12 @@ class BaseSoapApiClient(object):
         self._client = zeep.Client(
             wsdl=wsdl_url,
             service_name=service_name,
+            wsse=wsse,
             transport=zeep.transports.Transport(session=session))
 
-    def info(self):
-        breakpoint()
-        return self._client.Version
+    def __getattr__(self, attr):
+        try:
+            response = getattr(self._client.service, attr)
+            return response
+        except zeep.exceptions.Fault as fault:
+            raise WorkdaySoapApiError(fault)

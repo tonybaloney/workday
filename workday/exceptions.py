@@ -18,3 +18,9 @@
 class WsdlNotProvidedError(Exception):
     def __init__(self, service):
         self.message = "WSDL not provided for {0} service".format(service)
+
+
+class WorkdaySoapApiError(Exception):
+    def __init__(self, fault):
+        self.message = fault.message
+        self._fault = fault
