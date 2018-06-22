@@ -56,25 +56,16 @@ class WorkdayClient(object):
         if disable_ssl_verification:
             self._session.verify = False
 
-        if "talent" in wsdls:
-            self._talent = BaseSoapApiClient(
-                name="talent",
+        self._apis = {}
+
+        for name, value in wsdls.items():
+            self._apis[name] = BaseSoapApiClient(
+                name=name,
                 session=self._session,
-                wsdl_url=wsdls["talent"] + "?wsdl",
+                wsdl_url=value + "?wsdl",
                 authentication=authentication,
             )
-        else:
-            self._talent = None
-
-    @property
-    def talent(self):
-        """
-        Access property for the talent-management API
-        """
-        if self._talent == None:
-            raise WsdlNotProvidedError("talent")
-        else:
-            return self._talent
+            setattr(self, name, self._apis[name])
 
 
 class WorkdayResponse(object):
