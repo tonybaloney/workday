@@ -77,6 +77,42 @@ class WorkdayClient(object):
             return self._talent
 
 
+class WorkdayResponse(object):
+    """
+    Response from the Workday API
+    """
+    def __init__(self, response):
+        self._response = response
+
+    @property
+    def references(self):
+        return self._response['Request_References']
+   
+    @property
+    def filter(self):
+        return self._response['Response_Filter']
+
+    @property
+    def total_results(self):
+        return self._response['Response_Results']['Total_Results']
+    
+    @property
+    def total_pages(self):
+        return self._response['Response_Results']['Total_Pages']
+
+    @property
+    def page_results(self):
+        return self._response['Response_Results']['Page_Results']
+
+    @property
+    def page(self):
+        return self._response['Response_Results']['Page']
+
+    @property
+    def data(self):
+        return self._response['Response_Data']
+
+
 class BaseSoapApiClient(object):
     def __init__(self, name, session, wsdl_url, authentication, proxy_url=None):
         """
@@ -103,9 +139,13 @@ class BaseSoapApiClient(object):
         )
 
     def __getattr__(self, attr):
+        """
+        :rtype: :class:`WorkdayResponse`
+        """
         def call_soap_method(*args, **kwargs):
             try:
-                return getattr(self._client.service, attr)(*args, **kwargs)
+                result = getattr(self._client.service, attr)(*args, **kwargs)
+                return WorkdayResponse(result)
             except zeep.exceptions.Fault as fault:
                 raise WorkdaySoapApiError(fault)
 

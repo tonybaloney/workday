@@ -26,10 +26,9 @@ def main():
     client = workday.WorkdayClient(
         wsdls=config['wsdls'], 
         authentication=WsSecurityCredentialAuthentication(config['user'], config['password']), 
-        proxy_url=config.get('proxy_url', None),
-        disable_ssl_verification=(config['proxy_url'] != None))
+        )
 
-    client.talent.Get_Languages()
+    print(client.talent.Get_Languages().data)
 
 if __name__ == '__main__':
     main()
