@@ -1,0 +1,8 @@
+.tenant.yml
+__pycache__/
+*.py[co]
+env/
+dist/
+.eggs/
+build/
+*.egg-info/
