@@ -135,8 +135,9 @@ class BaseSoapApiClient(object):
         )
 
     def __getattr__(self, attr):
-        try:
-            response = getattr(self._client.service, attr)
-            return response
-        except zeep.exceptions.Fault as fault:
-            raise WorkdaySoapApiError(fault)
+        def call_soap_method(*args, **kwargs):
+            try:
+                return getattr(self._client.service, attr)(*args, **kwargs)
+            except zeep.exceptions.Fault as fault:
+                raise WorkdaySoapApiError(fault)
+        return call_soap_method
