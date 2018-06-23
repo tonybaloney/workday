@@ -2,6 +2,7 @@
 black
 pre-commit
 pytest
+pytest-cov
 twine
 sphinx
 requests_staticmock
