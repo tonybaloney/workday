@@ -17,6 +17,7 @@
 import pytest
 
 import workday
+import workday.auth
 
 from requests_staticmock import ClassAdapter
 from requests_staticmock.abstractions import BaseMockClass
@@ -25,29 +26,65 @@ from requests_staticmock.responses import StaticResponseFactory
 
 class MockSoapClass(BaseMockClass):
     def _response(self, path):
-        with open(fixture_path, 'rb') as fo:
+        with open(fixture_path, "rb") as fo:
             body = fo.read()
 
     def _v30(self, method, params, headers):
-        return _response('fixtures/v30')
+        return _response("fixtures/v30")
+
+
+wsdls = {"test": "https://workday.com/api/v30"}
+
+
+TEST_AUTH = workday.auth.AnonymousAuthentication()
 
 
 @pytest.fixture()
 def client():
-    client = WorkdayClient()
-    client._session.mount('https://workday.com', MockSoapClass)
-
+    client = workday.WorkdayClient(wsdls=wsdls, authentication=TEST_AUTH)
+    client._session.mount("https://workday.com", MockSoapClass)
     return client
 
-def test_basic_client(client):
-    pass
 
-def test_client_auth(client):
+def test_client_auth():
     """
     WorkdayClient should check that authentication argument is one of
     :class:`workday.auth.BaseAuthentication`
     """
     with pytest.raises(ValueError):
         workday.WorkdayClient(
-            wsdls={'a': 'https://workday.com/test'},
-            authentication=('username', 'password'))
+            wsdls={"a": "https://workday.com/test"},
+            authentication=("username", "password"),
+        )
+
+
+bad_wsdl_types = (None, 1, "banana", (12,), {1, 2, 3})
+
+
+@pytest.mark.parametrize("wsdl", bad_wsdl_types)
+def test_bad_wsdl_values(wsdl):
+    """
+    Workday client should only accept a valid dictionary for the value
+    of `wsdls`
+    """
+    with pytest.raises(TypeError):
+        workday.WorkdayClient(wsdls=wsdl, authentication=TEST_AUTH)
+
+
+bad_wsdl_values = (
+    {1: None},
+    {"place": None},
+    {"place": 1},
+    {"place": dict()},
+    {"place": (1,)},
+)
+
+
+@pytest.mark.parametrize("wsdl", bad_wsdl_values)
+def test_bad_wsdl_values(wsdl):
+    """
+    Workday client should only accept a valid dictionary for the value
+    of `wsdls`
+    """
+    with pytest.raises(ValueError):
+        workday.WorkdayClient(wsdls=wsdl, authentication=TEST_AUTH)

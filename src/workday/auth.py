@@ -31,6 +31,7 @@ class AnonymousAuthentication(BaseAuthentication):
     """
     No authentication
     """
+
     def __init__(self):
         self._kwargs = {}
 

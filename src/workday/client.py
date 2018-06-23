@@ -19,9 +19,12 @@ import zeep.exceptions
 import zeep.transports
 from zeep.wsse.username import UsernameToken
 
+import six
+
 import requests
 from requests.auth import HTTPBasicAuth
 
+from .auth import BaseAuthentication
 from .exceptions import WsdlNotProvidedError, WorkdaySoapApiError
 
 
@@ -48,6 +51,14 @@ class WorkdayClient(object):
         :param proxy_url: Optional URL to proxy requests through
         :type  proxy_url: ``str``
         """
+        if not isinstance(authentication, BaseAuthentication):
+            raise ValueError(
+                "authentication argument must be of type BaseAuthentication"
+            )
+
+        if not isinstance(wsdls, dict):
+            raise TypeError("WSDLs argument must be a dictionary")
+
         self.proxy_url = proxy_url
         self._session = requests.Session()
 
@@ -59,6 +70,10 @@ class WorkdayClient(object):
         self._apis = {}
 
         for name, value in wsdls.items():
+            if not isinstance(value, six.string_types):
+                raise ValueError(
+                    "WSDL value must be a string with the URL of the Workday Web Service."
+                )
             self._apis[name] = BaseSoapApiClient(
                 name=name,
                 session=self._session,
@@ -72,36 +87,37 @@ class WorkdayResponse(object):
     """
     Response from the Workday API
     """
+
     def __init__(self, response):
         self._response = response
 
     @property
     def references(self):
-        return self._response['Request_References']
-   
+        return self._response["Request_References"]
+
     @property
     def filter(self):
-        return self._response['Response_Filter']
+        return self._response["Response_Filter"]
 
     @property
     def total_results(self):
-        return self._response['Response_Results']['Total_Results']
-    
+        return self._response["Response_Results"]["Total_Results"]
+
     @property
     def total_pages(self):
-        return self._response['Response_Results']['Total_Pages']
+        return self._response["Response_Results"]["Total_Pages"]
 
     @property
     def page_results(self):
-        return self._response['Response_Results']['Page_Results']
+        return self._response["Response_Results"]["Page_Results"]
 
     @property
     def page(self):
-        return self._response['Response_Results']['Page']
+        return self._response["Response_Results"]["Page"]
 
     @property
     def data(self):
-        return self._response['Response_Data']
+        return self._response["Response_Data"]
 
 
 class BaseSoapApiClient(object):
@@ -133,6 +149,7 @@ class BaseSoapApiClient(object):
         """
         :rtype: :class:`WorkdayResponse`
         """
+
         def call_soap_method(*args, **kwargs):
             try:
                 result = getattr(self._client.service, attr)(*args, **kwargs)

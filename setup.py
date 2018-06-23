@@ -3,9 +3,9 @@
 
 
 try:
-    from setuptools import setup
+    from setuptools import setup, find_packages
 except ImportError:
-    from distutils.core import setup
+    from distutils.core import setup, find_packages
 
 
 with open('README.md') as readme_file:
@@ -16,7 +16,8 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     'zeep>=3.0.0',
-    'requests'
+    'requests',
+    'six'
 ]
 
 test_requirements = [
@@ -31,11 +32,8 @@ setup(
     author="Anthony Shaw",
     author_email='anthonyshaw@apache.org',
     url='https://github.com/tonybaloney/workday',
-    packages=[
-        'workday',
-    ],
-    package_dir={'workday':
-                 'workday'},
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
     include_package_data=True,
     install_requires=requirements,
     license="Apache License (2.0)",
