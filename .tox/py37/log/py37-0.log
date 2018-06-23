@@ -1,9 +1,0 @@
-actionid: py37
-msg: getenv
-cmdargs: ['/Users/anthonyshaw/repo/workday/env/bin/python3', '-m', 'virtualenv', '--python', '/Users/anthonyshaw/repo/workday/env/bin/python3.7', 'py37']
-
-Using real prefix '/Library/Frameworks/Python.framework/Versions/3.7'
-New python executable in /Users/anthonyshaw/repo/workday/.tox/py37/bin/python3.7
-Also creating executable in /Users/anthonyshaw/repo/workday/.tox/py37/bin/python
-Installing setuptools, pip, wheel...done.
-Running virtualenv with interpreter /Users/anthonyshaw/repo/workday/env/bin/python3.7
