@@ -1,6 +1,8 @@
+-rrequirements.txt
 black
 pre-commit
 pytest
 twine
 sphinx
 requests_staticmock
+tox

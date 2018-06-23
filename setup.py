@@ -15,13 +15,14 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = [
-    'zeep>=3.0.0',
+    'zeep>=3.0.0,<4.0.0',
     'requests',
     'six'
 ]
 
 test_requirements = [
-   'pytest'
+   'pytest',
+   'requests_staticmock'
 ]
 
 setup(

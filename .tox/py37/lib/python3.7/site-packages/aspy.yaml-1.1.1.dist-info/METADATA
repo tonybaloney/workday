@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: aspy.yaml
+Version: 1.1.1
+Summary: A few extensions to pyyaml.
+Home-page: https://github.com/asottile/aspy.yaml
+Author: Anthony Sottile
+Author-email: asottile@umich.edu
+License: UNKNOWN
+Platform: all
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: pyyaml
+
+UNKNOWN
+
+

@@ -1,0 +1,4 @@
+[console_scripts]
+tox = tox.session:run_main
+tox-quickstart = tox._quickstart:main
+
