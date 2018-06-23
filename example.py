@@ -28,7 +28,7 @@ def main():
         authentication=WsSecurityCredentialAuthentication(config['user'], config['password']), 
         )
 
-    print(client.talent.Get_Languages().data)
+    print(client.talent.Get_Competencies().data)
 
 if __name__ == '__main__':
     main()

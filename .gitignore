@@ -1,3 +1,4 @@
+.pytest_cache/
 .tenant.yml
 __pycache__/
 *.py[co]
