@@ -18,35 +18,13 @@ import pytest
 
 import workday
 import workday.auth
-
-from requests_staticmock import ClassAdapter
-from requests_staticmock.abstractions import BaseMockClass
-from requests_staticmock.responses import StaticResponseFactory
+import workday.soap
 
 
-@pytest.fixture()
-def test_wsdl():
-    return {"test": "https://workday.com/api/v30"}
-
-
-@pytest.fixture()
-def test_authentication():
-    return workday.auth.AnonymousAuthentication()
-
-
-@pytest.fixture()
-def workday_client(test_authentication, test_wsdl):
-    class MockSoapClass(BaseMockClass):
-        def _response(self, path):
-            with open(fixture_path, "rb") as fo:
-                body = fo.read()
-
-        def _v30(self, method, params, headers):
-            return _response("fixtures/v30")
-
-    client = workday.WorkdayClient(wsdls=wsdls, authentication=authentication)
-    client._session.mount("https://workday.com", MockSoapClass)
-    return client
+def test_client_instantiation(workday_client):
+    assert hasattr(workday_client, 'test')
+    assert hasattr(workday_client.test, 'sayHello')
+    assert isinstance(workday_client.test.sayHello('xavier'), workday.soap.WorkdayResponse)
 
 
 def test_client_auth(test_wsdl):

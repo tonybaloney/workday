@@ -25,7 +25,8 @@ def main():
 
     client = workday.WorkdayClient(
         wsdls=config['wsdls'], 
-        authentication=WsSecurityCredentialAuthentication(config['user'], config['password']), 
+        authentication=WsSecurityCredentialAuthentication(config['user'], config['password']),
+        disable_ssl_verification=True, 
         )
 
     print(client.talent.Get_Competencies().data)
