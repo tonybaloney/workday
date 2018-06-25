@@ -22,9 +22,11 @@ import workday.soap
 
 
 def test_client_instantiation(workday_client):
-    assert hasattr(workday_client, 'test')
-    assert hasattr(workday_client.test, 'sayHello')
-    assert isinstance(workday_client.test.sayHello('xavier'), workday.soap.WorkdayResponse)
+    assert hasattr(workday_client, "test")
+    assert hasattr(workday_client.test, "sayHello")
+    assert isinstance(
+        workday_client.test.sayHello("xavier"), workday.soap.WorkdayResponse
+    )
 
 
 def test_client_auth(test_wsdl):
@@ -33,10 +35,7 @@ def test_client_auth(test_wsdl):
     :class:`workday.auth.BaseAuthentication`
     """
     with pytest.raises(ValueError):
-        workday.WorkdayClient(
-            wsdls=test_wsdl,
-            authentication=("username", "password"),
-        )
+        workday.WorkdayClient(wsdls=test_wsdl, authentication=("username", "password"))
 
 
 bad_wsdl_types = (None, 1, "banana", (12,), {1, 2, 3})

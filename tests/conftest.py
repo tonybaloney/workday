@@ -41,7 +41,7 @@ def test_authentication():
 @pytest.fixture()
 def workday_client(test_authentication, test_wsdl, mocker):
     class MockSoapClass(BaseMockClass):
-        base_path = 'tests/fixtures/v30_1'
+        base_path = "tests/fixtures/v30_1"
 
         def _response(self, request, path):
             with open(os.path.join(self.base_path, path), "rb") as fo:
@@ -49,22 +49,22 @@ def workday_client(test_authentication, test_wsdl, mocker):
             return StaticResponseFactory.GoodResponse(body, request)
 
         def _wsdl(self, request):
-            return self._response(request, 'test_wsdl')
+            return self._response(request, "test_wsdl")
 
         def _api_v30(self, request, url, method, params, headers):
-            if '?wsdl' in url:
+            if "?wsdl" in url:
                 return self._wsdl(request)
             return self._response(request, method)
 
         def _api_test(self, request, url, method, params, headers):
             root = etree.XML(request.body)
             soap_request = root.getchildren()[0].getchildren()[0]
-            assert soap_request.tag == '{urn:examples:helloservice}sayHello'
+            assert soap_request.tag == "{urn:examples:helloservice}sayHello"
             kwargs = {}
             for arg in soap_request.getchildren():
                 kwargs[arg.tag] = arg.text
-            assert kwargs == {'firstName': 'xavier'}
-            return self._response(request, 'test_soap_response')
+            assert kwargs == {"firstName": "xavier"}
+            return self._response(request, "test_soap_response")
 
     adapter = ClassAdapter(MockSoapClass)
     client = workday.WorkdayClient(wsdls=test_wsdl, authentication=test_authentication)

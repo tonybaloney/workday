@@ -28,6 +28,7 @@ class WorkdayClient(object):
     """
     Entry point for the workday APIs.
     """
+
     _apis = {}
     _session = None
     _authentication = None
@@ -76,7 +77,7 @@ class WorkdayClient(object):
                     "WSDL value must be a string with the URL of the Workday Web Service."
                 )
             self._apis[name] = value
-    
+
     def __getattr__(self, api):
         if api not in self._apis:
             raise WsdlNotProvidedError("API '{0}' was not loaded".format(api))
