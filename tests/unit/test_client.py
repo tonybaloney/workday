@@ -19,6 +19,7 @@ import pytest
 import workday
 import workday.auth
 import workday.soap
+import workday.exceptions
 
 
 def test_client_instantiation(workday_client):
@@ -27,6 +28,42 @@ def test_client_instantiation(workday_client):
     assert isinstance(
         workday_client.test.sayHello("xavier"), workday.soap.WorkdayResponse
     )
+
+
+def test_client_instantiation_bad_api(workday_client):
+    """
+    Test that the client doesn't have a property for an API you didn't configure
+    and raises a suitable exception
+    """
+    assert hasattr(workday_client, "test")
+    assert hasattr(workday_client.test, "sayHello")
+    with pytest.raises(workday.exceptions.WsdlNotProvidedError):
+        workday_client.banana
+
+
+def test_ssl_verification(test_wsdl, test_authentication):
+    """
+    Test that the client has SSL verification enabled by default
+    """
+    client = workday.WorkdayClient(wsdls=test_wsdl, authentication=test_authentication, disable_ssl_verification=None)
+    assert client._session.verify == True
+
+
+def test_disable_ssl_auth(test_wsdl, test_authentication):
+    """
+    Test that the client has SSL verification disabled if specified
+    """
+    client = workday.WorkdayClient(wsdls=test_wsdl, authentication=test_authentication,disable_ssl_verification=True)
+    assert client._session.verify == False
+
+
+def test_proxy_configuration(test_wsdl, test_authentication):
+    """
+    Test that the client has a https proxy if specified
+    """
+    _PROXY_URL = "https://proxy.com:8888"
+    client = workday.WorkdayClient(wsdls=test_wsdl, authentication=test_authentication, proxy_url=_PROXY_URL)
+    assert client._session.proxies == {"https": _PROXY_URL}
 
 
 def test_client_auth(test_wsdl):

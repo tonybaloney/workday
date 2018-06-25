@@ -1,3 +1,5 @@
+.coverage
+htmlcov/
 .tox/
 .pytest_cache/
 .tenant.yml
