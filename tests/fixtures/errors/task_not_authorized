@@ -1,0 +1,13 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+	<SOAP-ENV:Body>
+		<SOAP-ENV:Fault xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wd="urn:com.workday/bsvc">
+			<faultcode>SOAP-ENV:Server.processingError</faultcode>
+			<faultstring>Processing error occurred. The task submitted is not authorized.</faultstring>
+			<detail>
+				<wd:Processing_Fault>
+					<wd:Detail_Message>The task submitted is not authorized.</wd:Detail_Message>
+				</wd:Processing_Fault>
+			</detail>
+		</SOAP-ENV:Fault>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

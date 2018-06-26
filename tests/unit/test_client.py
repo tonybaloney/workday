@@ -79,7 +79,7 @@ bad_wsdl_types = (None, 1, "banana", (12,), {1, 2, 3})
 
 
 @pytest.mark.parametrize("wsdl", bad_wsdl_types)
-def test_bad_wsdl_values(wsdl, test_authentication):
+def test_bad_wsdl_types(wsdl, test_authentication):
     """
     Workday client should only accept a valid dictionary for the value
     of `wsdls`

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Competency_Classes_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v30.1">
+            <wd:Response_Results>
+                <wd:Total_Results>69</wd:Total_Results>
+                <wd:Total_Pages>1</wd:Total_Pages>
+                <wd:Page_Results>69</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Competency_Class>
+                    <wd:Competency_Class_Reference>
+                        <wd:ID wd:type="WID">c795c5e1bbe201fab8beb99b503149ce</wd:ID>
+                        <wd:ID wd:type="Competency_Class_ID">Networking_Data Centre Networking</wd:ID>
+                    </wd:Competency_Class_Reference>
+                    <wd:Competency_Class_Data>
+                        <wd:Name>Networking_Data Centre Networking</wd:Name>
+                        <wd:Code>Networking_Data Centre Networking</wd:Code>
+                        <wd:Competency_Category_Reference>
+                            <wd:ID wd:type="WID">c795c5e1bbe201d09b13c07a5031bacd</wd:ID>
+                            <wd:ID wd:type="Competency_Category_ID">SDN and Automation</wd:ID>
+                        </wd:Competency_Category_Reference>
+                        <wd:Competency_Category_Reference>
+                            <wd:ID wd:type="WID">c795c5e1bbe201a7c349bc7a5031b9cd</wd:ID>
+                            <wd:ID wd:type="Competency_Category_ID">Application Delivery</wd:ID>
+                        </wd:Competency_Category_Reference>
+                        <wd:Competency_Category_Reference>
+                            <wd:ID wd:type="WID">c795c5e1bbe201b0ae40b87a5031b8cd</wd:ID>
+                            <wd:ID wd:type="Competency_Category_ID">DC NW Security</wd:ID>
+                        </wd:Competency_Category_Reference>
+                        <wd:Competency_Category_Reference>
+                            <wd:ID wd:type="WID">c795c5e1bbe201fb82eac77a5031bccd</wd:ID>
+                            <wd:ID wd:type="Competency_Category_ID">Network Services DCN</wd:ID>
+                        </wd:Competency_Category_Reference>
+                        <wd:Competency_Category_Reference>
+                            <wd:ID wd:type="WID">c795c5e1bbe20147b63fc47a5031bbcd</wd:ID>
+                            <wd:ID wd:type="Competency_Category_ID">DC Switching Architectures</wd:ID>
+                        </wd:Competency_Category_Reference>
+                    </wd:Competency_Class_Data>
+                </wd:Competency_Class>
+            </wd:Response_Data>
+        </wd:Get_Competency_Classes_Response>
+    </env:Body>
+</env:Envelope>

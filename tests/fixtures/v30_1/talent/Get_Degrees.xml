@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Degrees_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v30.1">
+            <wd:Response_Results>
+                <wd:Total_Results>13</wd:Total_Results>
+                <wd:Total_Pages>1</wd:Total_Pages>
+                <wd:Page_Results>13</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Degree>
+                    <wd:Degree_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3adc7288cac9b386f</wd:ID>
+                        <wd:ID wd:type="Degree_ID">Doctorate</wd:ID>
+                    </wd:Degree_Reference>
+                    <wd:Degree_Data>
+                        <wd:ID>Doctorate</wd:ID>
+                        <wd:Name>Doctorate</wd:Name>
+                        <wd:Rating_Value>6</wd:Rating_Value>
+                        <wd:Description>Doctor of Philosophy or Juris Doctor</wd:Description>
+                        <wd:Inactive>1</wd:Inactive>
+                    </wd:Degree_Data>
+                </wd:Degree>
+                <wd:Degree>
+                    <wd:Degree_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3adc773ec2d0b3870</wd:ID>
+                        <wd:ID wd:type="Degree_ID">Masters</wd:ID>
+                    </wd:Degree_Reference>
+                    <wd:Degree_Data>
+                        <wd:ID>Masters</wd:ID>
+                        <wd:Name>Masters</wd:Name>
+                        <wd:Rating_Value>5</wd:Rating_Value>
+                        <wd:Description>Masters of Arts or Science or Business Administration</wd:Description>
+                        <wd:Inactive>1</wd:Inactive>
+                    </wd:Degree_Data>
+                </wd:Degree>
+                <wd:Degree>
+                    <wd:Degree_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3adc7766de2633871</wd:ID>
+                        <wd:ID wd:type="Degree_ID">Bachelors</wd:ID>
+                    </wd:Degree_Reference>
+                    <wd:Degree_Data>
+                        <wd:ID>Bachelors</wd:ID>
+                        <wd:Name>Bachelors</wd:Name>
+                        <wd:Rating_Value>4</wd:Rating_Value>
+                        <wd:Description>Bachelors of Arts or Science</wd:Description>
+                        <wd:Inactive>1</wd:Inactive>
+                    </wd:Degree_Data>
+                </wd:Degree>
+                <wd:Degree>
+                    <wd:Degree_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3adc778d79b1b3872</wd:ID>
+                        <wd:ID wd:type="Degree_ID">Associates</wd:ID>
+                    </wd:Degree_Reference>
+                    <wd:Degree_Data>
+                        <wd:ID>Associates</wd:ID>
+                        <wd:Name>Associates</wd:Name>
+                        <wd:Rating_Value>3</wd:Rating_Value>
+                        <wd:Description>Associates of Arts or Science</wd:Description>
+                        <wd:Inactive>1</wd:Inactive>
+                    </wd:Degree_Data>
+                </wd:Degree>
+                <wd:Degree>
+                    <wd:Degree_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3adc77afe7e733873</wd:ID>
+                        <wd:ID wd:type="Degree_ID">High_School</wd:ID>
+                    </wd:Degree_Reference>
+                    <wd:Degree_Data>
+                        <wd:ID>High_School</wd:ID>
+                        <wd:Name>High School Certificate</wd:Name>
+                        <wd:Rating_Value>3</wd:Rating_Value>
+                        <wd:Description>Obtained highest level of secondary education</wd:Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Degree_Data>
+                </wd:Degree>
+                <wd:Degree>
+                    <wd:Degree_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3adc77dae8b133874</wd:ID>
+                        <wd:ID wd:type="Degree_ID">GED</wd:ID>
+                    </wd:Degree_Reference>
+                    <wd:Degree_Data>
+                        <wd:ID>GED</wd:ID>
+                        <wd:Name>GED</wd:Name>
+                        <wd:Rating_Value>1</wd:Rating_Value>
+                        <wd:Description>General Equivalency Diploma</wd:Description>
+                        <wd:Inactive>1</wd:Inactive>
+                    </wd:Degree_Data>
+                </wd:Degree>
+                <wd:Degree>
+                    <wd:Degree_Reference>
+                        <wd:ID wd:type="WID">24a0a8ec889510f525d3ac6bf463ce5b</wd:ID>
+                        <wd:ID wd:type="Degree_ID">DEGREE-3-7</wd:ID>
+                    </wd:Degree_Reference>
+                    <wd:Degree_Data>
+                        <wd:ID>DEGREE-3-7</wd:ID>
+                        <wd:Name>Relevant Qualification</wd:Name>
+                        <wd:Rating_Value>6</wd:Rating_Value>
+                        <wd:Description>Relevant Qualification</wd:Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Degree_Data>
+                </wd:Degree>
+                <wd:Degree>
+                    <wd:Degree_Reference>
+                        <wd:ID wd:type="WID">24a0a8ec889510f525d3ad38ebb2ce5c</wd:ID>
+                        <wd:ID wd:type="Degree_ID">DEGREE-3-8</wd:ID>
+                    </wd:Degree_Reference>
+                    <wd:Degree_Data>
+                        <wd:ID>DEGREE-3-8</wd:ID>
+                        <wd:Name>Graduate</wd:Name>
+                        <wd:Rating_Value>2</wd:Rating_Value>
+                        <wd:Description>Obtained first academic degree</wd:Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Degree_Data>
+                </wd:Degree>
+                <wd:Degree>
+                    <wd:Degree_Reference>
+                        <wd:ID wd:type="WID">24a0a8ec889510f525d3ad56f569ce5d</wd:ID>
+                        <wd:ID wd:type="Degree_ID">DEGREE-3-9</wd:ID>
+                    </wd:Degree_Reference>
+                    <wd:Degree_Data>
+                        <wd:ID>DEGREE-3-9</wd:ID>
+                        <wd:Name>Postgraduate</wd:Name>
+                        <wd:Rating_Value>4</wd:Rating_Value>
+                        <wd:Description>Obtained second and/or subsequent academic degrees</wd:Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Degree_Data>
+                </wd:Degree>
+                <wd:Degree>
+                    <wd:Degree_Reference>
+                        <wd:ID wd:type="WID">24a0a8ec889510f525d3ad70abd1ce5e</wd:ID>
+                        <wd:ID wd:type="Degree_ID">DEGREE-3-10</wd:ID>
+                    </wd:Degree_Reference>
+                    <wd:Degree_Data>
+                        <wd:ID>DEGREE-3-10</wd:ID>
+                        <wd:Name>Undergraduate</wd:Name>
+                        <wd:Rating_Value>7</wd:Rating_Value>
+                        <wd:Description>Obtained the first academic degree</wd:Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Degree_Data>
+                </wd:Degree>
+                <wd:Degree>
+                    <wd:Degree_Reference>
+                        <wd:ID wd:type="WID">24a0a8ec889510f525d3ad8a259bce5f</wd:ID>
+                        <wd:ID wd:type="Degree_ID">DEGREE-3-11</wd:ID>
+                    </wd:Degree_Reference>
+                    <wd:Degree_Data>
+                        <wd:ID>DEGREE-3-11</wd:ID>
+                        <wd:Name>Diploma</wd:Name>
+                        <wd:Rating_Value>1</wd:Rating_Value>
+                        <wd:Description>Initial qualification awarded through a registered educational provider</wd:Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Degree_Data>
+                </wd:Degree>
+                <wd:Degree>
+                    <wd:Degree_Reference>
+                        <wd:ID wd:type="WID">24a0a8ec889510f525d3ada6415bce60</wd:ID>
+                        <wd:ID wd:type="Degree_ID">DEGREE-3-12</wd:ID>
+                    </wd:Degree_Reference>
+                    <wd:Degree_Data>
+                        <wd:ID>DEGREE-3-12</wd:ID>
+                        <wd:Name>Certification</wd:Name>
+                        <wd:Rating_Value>6</wd:Rating_Value>
+                        <wd:Description>Professional certification through a certifying agency and exam provider</wd:Description>
+                        <wd:Inactive>1</wd:Inactive>
+                    </wd:Degree_Data>
+                </wd:Degree>
+                <wd:Degree>
+                    <wd:Degree_Reference>
+                        <wd:ID wd:type="WID">dc5e16bb79a110097bf1388ca8876857</wd:ID>
+                        <wd:ID wd:type="Degree_ID">DEGREE-3-13</wd:ID>
+                    </wd:Degree_Reference>
+                    <wd:Degree_Data>
+                        <wd:ID>DEGREE-3-13</wd:ID>
+                        <wd:Name>Postgraduate Diploma</wd:Name>
+                        <wd:Rating_Value>5</wd:Rating_Value>
+                        <wd:Description>Subsequent qualification awarded through a registered educational provider</wd:Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Degree_Data>
+                </wd:Degree>
+            </wd:Response_Data>
+        </wd:Get_Degrees_Response>
+    </env:Body>
+</env:Envelope>

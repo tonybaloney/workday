@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Language_Proficiency_Levels_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v30.1">
+            <wd:Response_Results>
+                <wd:Total_Results>5</wd:Total_Results>
+                <wd:Total_Pages>1</wd:Total_Pages>
+                <wd:Page_Results>5</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Language_Proficiency_Level>
+                    <wd:Language_Proficiency_Level_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b147bd5270cb8814</wd:ID>
+                        <wd:ID wd:type="Language_Proficiency_ID">Intermediate</wd:ID>
+                    </wd:Language_Proficiency_Level_Reference>
+                    <wd:Language_Proficiency_Level_Data>
+                        <wd:ID>Intermediate</wd:ID>
+                        <wd:Rating>3 - Intermediate</wd:Rating>
+                        <wd:Rating_Value>3</wd:Rating_Value>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Proficiency_Level_Data>
+                </wd:Language_Proficiency_Level>
+                <wd:Language_Proficiency_Level>
+                    <wd:Language_Proficiency_Level_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b147c447d3f38815</wd:ID>
+                        <wd:ID wd:type="Language_Proficiency_ID">Classroom_Study</wd:ID>
+                    </wd:Language_Proficiency_Level_Reference>
+                    <wd:Language_Proficiency_Level_Data>
+                        <wd:ID>Classroom_Study</wd:ID>
+                        <wd:Rating>2 - Classroom Study</wd:Rating>
+                        <wd:Rating_Value>2</wd:Rating_Value>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Proficiency_Level_Data>
+                </wd:Language_Proficiency_Level>
+                <wd:Language_Proficiency_Level>
+                    <wd:Language_Proficiency_Level_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b147c65497cb8816</wd:ID>
+                        <wd:ID wd:type="Language_Proficiency_ID">Beginner</wd:ID>
+                    </wd:Language_Proficiency_Level_Reference>
+                    <wd:Language_Proficiency_Level_Data>
+                        <wd:ID>Beginner</wd:ID>
+                        <wd:Rating>1 - Beginner</wd:Rating>
+                        <wd:Rating_Value>1</wd:Rating_Value>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Proficiency_Level_Data>
+                </wd:Language_Proficiency_Level>
+                <wd:Language_Proficiency_Level>
+                    <wd:Language_Proficiency_Level_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b147c8449c438817</wd:ID>
+                        <wd:ID wd:type="Language_Proficiency_ID">Fluent</wd:ID>
+                    </wd:Language_Proficiency_Level_Reference>
+                    <wd:Language_Proficiency_Level_Data>
+                        <wd:ID>Fluent</wd:ID>
+                        <wd:Rating>5 - Fluent</wd:Rating>
+                        <wd:Rating_Value>5</wd:Rating_Value>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Proficiency_Level_Data>
+                </wd:Language_Proficiency_Level>
+                <wd:Language_Proficiency_Level>
+                    <wd:Language_Proficiency_Level_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b147ca41990b8818</wd:ID>
+                        <wd:ID wd:type="Language_Proficiency_ID">Advanced</wd:ID>
+                    </wd:Language_Proficiency_Level_Reference>
+                    <wd:Language_Proficiency_Level_Data>
+                        <wd:ID>Advanced</wd:ID>
+                        <wd:Rating>4 - Advanced</wd:Rating>
+                        <wd:Rating_Value>4</wd:Rating_Value>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Proficiency_Level_Data>
+                </wd:Language_Proficiency_Level>
+            </wd:Response_Data>
+        </wd:Get_Language_Proficiency_Levels_Response>
+    </env:Body>
+</env:Envelope>

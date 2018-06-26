@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Proficiency_Rating_Scales_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v30.1">
+            <wd:Response_Results>
+                <wd:Total_Results>2</wd:Total_Results>
+                <wd:Total_Pages>1</wd:Total_Pages>
+                <wd:Page_Results>2</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Proficiency_Rating_Scale>
+                    <wd:Proficiency_Rating_Scale_Reference>
+                        <wd:ID wd:type="WID">c795c5e1bbe201d9d47510e0503156cf</wd:ID>
+                        <wd:ID wd:type="Rating_Scale_ID">PROFICIENCY_RATING_SCALE-9-3</wd:ID>
+                    </wd:Proficiency_Rating_Scale_Reference>
+                    <wd:Proficiency_Rating_Scale_Data>
+                        <wd:Proficiency_Rating_Scale_ID>PROFICIENCY_RATING_SCALE-9-3</wd:Proficiency_Rating_Scale_ID>
+                        <wd:Rating_Scale_Name>Competency Framework Rating Scale</wd:Rating_Scale_Name>
+                        <wd:Description>This proficiency rating is used for the competency frameworks that have been added in the system.</wd:Description>
+                        <wd:Inactive>0</wd:Inactive>
+                        <wd:Proficiency_Rating_Data>
+                            <wd:Proficiency_Rating_ID>0</wd:Proficiency_Rating_ID>
+                            <wd:Rating_Order>a</wd:Rating_Order>
+                            <wd:Rating>0 - Not Applicable</wd:Rating>
+                            <wd:Exclude_From_Calculations>0</wd:Exclude_From_Calculations>
+                            <wd:Rating_Value>0</wd:Rating_Value>
+                            <wd:Range_Begin>0</wd:Range_Begin>
+                            <wd:Range_End>0</wd:Range_End>
+                            <wd:Proficiency_Rating_Behavior_Data>
+                                <wd:Description>The employee is not required to apply or demonstrate this competency. This competency is not applicable to their role.</wd:Description>
+                            </wd:Proficiency_Rating_Behavior_Data>
+                        </wd:Proficiency_Rating_Data>
+                        <wd:Proficiency_Rating_Data>
+                            <wd:Proficiency_Rating_ID>1</wd:Proficiency_Rating_ID>
+                            <wd:Rating_Order>b</wd:Rating_Order>
+                            <wd:Rating>1 - Just starting</wd:Rating>
+                            <wd:Exclude_From_Calculations>0</wd:Exclude_From_Calculations>
+                            <wd:Rating_Value>1</wd:Rating_Value>
+                            <wd:Range_Begin>0</wd:Range_Begin>
+                            <wd:Range_End>1.49</wd:Range_End>
+                            <wd:Proficiency_Rating_Behavior_Data>
+                                <wd:Description>Fundamental awareness 
+Common knowledge or an understanding of the basic techniques and concepts;
+Primary focus is on learning;
+Only performs task driven job activities;
+Requires "hands-on" supervision and guidance;
+Limited exposure to Dimension Data and/or client environment.</wd:Description>
+                            </wd:Proficiency_Rating_Behavior_Data>
+                        </wd:Proficiency_Rating_Data>
+                        <wd:Proficiency_Rating_Data>
+                            <wd:Proficiency_Rating_ID>2</wd:Proficiency_Rating_ID>
+                            <wd:Rating_Order>c</wd:Rating_Order>
+                            <wd:Rating>2 - Developing experience</wd:Rating>
+                            <wd:Exclude_From_Calculations>0</wd:Exclude_From_Calculations>
+                            <wd:Rating_Value>2</wd:Rating_Value>
+                            <wd:Range_Begin>1.5</wd:Range_Begin>
+                            <wd:Range_End>2.49</wd:Range_End>
+                            <wd:Proficiency_Rating_Behavior_Data>
+                                <wd:Description>Limited experience
+Displays the level of experience required for "on-the-job."  Still needs support with developing practical experience;
+Understands the basic requirements and can discuss terminology, concepts, principles and issues;
+Utilises the full range of reference and resource materials required to effectively perform in their role.</wd:Description>
+                            </wd:Proficiency_Rating_Behavior_Data>
+                        </wd:Proficiency_Rating_Data>
+                        <wd:Proficiency_Rating_Data>
+                            <wd:Proficiency_Rating_ID>3</wd:Proficiency_Rating_ID>
+                            <wd:Rating_Order>d</wd:Rating_Order>
+                            <wd:Rating>3 - Well practiced</wd:Rating>
+                            <wd:Exclude_From_Calculations>0</wd:Exclude_From_Calculations>
+                            <wd:Rating_Value>3</wd:Rating_Value>
+                            <wd:Range_Begin>2.5</wd:Range_Begin>
+                            <wd:Range_End>3.49</wd:Range_End>
+                            <wd:Proficiency_Rating_Behavior_Data>
+                                <wd:Description>Practical application 
+Successful task completion within requirements;
+Perform skills independently with minimal guidance, with ad-hoc expert guidance required;
+Emphasis is on applying and enhancing knowledge and skills;
+Capable of discussing the application and implications of changes to processes, policies and procedures.</wd:Description>
+                            </wd:Proficiency_Rating_Behavior_Data>
+                        </wd:Proficiency_Rating_Data>
+                        <wd:Proficiency_Rating_Data>
+                            <wd:Proficiency_Rating_ID>4</wd:Proficiency_Rating_ID>
+                            <wd:Rating_Order>e</wd:Rating_Order>
+                            <wd:Rating>4 - Taking the lead</wd:Rating>
+                            <wd:Exclude_From_Calculations>0</wd:Exclude_From_Calculations>
+                            <wd:Rating_Value>4</wd:Rating_Value>
+                            <wd:Range_Begin>3.5</wd:Range_Begin>
+                            <wd:Range_End>4.49</wd:Range_End>
+                            <wd:Proficiency_Rating_Behavior_Data>
+                                <wd:Description>Applied theory 
+No supervisory assistance required;
+Perceived by colleagues to consult from an informed knowledge base;
+Focus is on broad organisational/professional issues;
+Provides practical and relevant ideas and perspectives on process/ practice improvements (easy implementation);
+Coaches others by translating complex nuances into easy to understand terms;
+Participates in senior level, strategic discussions;
+Can develop reference and resource materials in area of expertise.</wd:Description>
+                            </wd:Proficiency_Rating_Behavior_Data>
+                        </wd:Proficiency_Rating_Data>
+                        <wd:Proficiency_Rating_Data>
+                            <wd:Proficiency_Rating_ID>5</wd:Proficiency_Rating_ID>
+                            <wd:Rating_Order>f</wd:Rating_Order>
+                            <wd:Rating>5 - Recognised expert</wd:Rating>
+                            <wd:Exclude_From_Calculations>0</wd:Exclude_From_Calculations>
+                            <wd:Rating_Value>5</wd:Rating_Value>
+                            <wd:Range_Begin>4.5</wd:Range_Begin>
+                            <wd:Range_End>5</wd:Range_End>
+                            <wd:Proficiency_Rating_Behavior_Data>
+                                <wd:Description>Recognised authority 
+Thought-leader and expert. Provides guidance, troubleshoots problems and answer questions;
+Focus is primarily strategic;
+Application across multiple projects and/or organisation areas;
+Expert specialist or generalist within and/or outside Dimension Data;
+Leads the development of reference and resource materials;
+Explains the relevant process elements and issues in relation to organisational issues and trends in sufficient detail during discussions and presentations.  Fosters a greater understanding among internal and external stakeholders."</wd:Description>
+                            </wd:Proficiency_Rating_Behavior_Data>
+                        </wd:Proficiency_Rating_Data>
+                    </wd:Proficiency_Rating_Scale_Data>
+                </wd:Proficiency_Rating_Scale>
+                <wd:Proficiency_Rating_Scale>
+                    <wd:Proficiency_Rating_Scale_Reference>
+                        <wd:ID wd:type="WID">f42611271b900102dc137cc5923da42d</wd:ID>
+                        <wd:ID wd:type="Rating_Scale_ID">PROFICIENCY_RATING_SCALE-3-2</wd:ID>
+                    </wd:Proficiency_Rating_Scale_Reference>
+                    <wd:Proficiency_Rating_Scale_Data>
+                        <wd:Proficiency_Rating_Scale_ID>PROFICIENCY_RATING_SCALE-3-2</wd:Proficiency_Rating_Scale_ID>
+                        <wd:Rating_Scale_Name>Billable Time</wd:Rating_Scale_Name>
+                        <wd:Description>How much of your time is currently billable?</wd:Description>
+                        <wd:Inactive>0</wd:Inactive>
+                        <wd:Proficiency_Rating_Data>
+                            <wd:Proficiency_Rating_ID>PROFICIENCY_RATING-3-7</wd:Proficiency_Rating_ID>
+                            <wd:Rating_Order>a</wd:Rating_Order>
+                            <wd:Rating>0%</wd:Rating>
+                            <wd:Exclude_From_Calculations>0</wd:Exclude_From_Calculations>
+                            <wd:Rating_Value>0</wd:Rating_Value>
+                            <wd:Range_Begin>0</wd:Range_Begin>
+                            <wd:Range_End>0</wd:Range_End>
+                        </wd:Proficiency_Rating_Data>
+                        <wd:Proficiency_Rating_Data>
+                            <wd:Proficiency_Rating_ID>PROFICIENCY_RATING-3-8</wd:Proficiency_Rating_ID>
+                            <wd:Rating_Order>b</wd:Rating_Order>
+                            <wd:Rating>Up to 10%</wd:Rating>
+                            <wd:Exclude_From_Calculations>0</wd:Exclude_From_Calculations>
+                            <wd:Rating_Value>1</wd:Rating_Value>
+                            <wd:Range_Begin>0</wd:Range_Begin>
+                            <wd:Range_End>1.49</wd:Range_End>
+                        </wd:Proficiency_Rating_Data>
+                        <wd:Proficiency_Rating_Data>
+                            <wd:Proficiency_Rating_ID>PROFICIENCY_RATING-3-9</wd:Proficiency_Rating_ID>
+                            <wd:Rating_Order>c</wd:Rating_Order>
+                            <wd:Rating>Up to 20%</wd:Rating>
+                            <wd:Exclude_From_Calculations>0</wd:Exclude_From_Calculations>
+                            <wd:Rating_Value>2</wd:Rating_Value>
+                            <wd:Range_Begin>1.5</wd:Range_Begin>
+                            <wd:Range_End>2.49</wd:Range_End>
+                        </wd:Proficiency_Rating_Data>
+                        <wd:Proficiency_Rating_Data>
+                            <wd:Proficiency_Rating_ID>PROFICIENCY_RATING-3-10</wd:Proficiency_Rating_ID>
+                            <wd:Rating_Order>d</wd:Rating_Order>
+                            <wd:Rating>Up to 30%</wd:Rating>
+                            <wd:Exclude_From_Calculations>0</wd:Exclude_From_Calculations>
+                            <wd:Rating_Value>3</wd:Rating_Value>
+                            <wd:Range_Begin>2.5</wd:Range_Begin>
+                            <wd:Range_End>3.49</wd:Range_End>
+                        </wd:Proficiency_Rating_Data>
+                        <wd:Proficiency_Rating_Data>
+                            <wd:Proficiency_Rating_ID>PROFICIENCY_RATING-3-11</wd:Proficiency_Rating_ID>
+                            <wd:Rating_Order>e</wd:Rating_Order>
+                            <wd:Rating>Up to 40%</wd:Rating>
+                            <wd:Exclude_From_Calculations>0</wd:Exclude_From_Calculations>
+                            <wd:Rating_Value>4</wd:Rating_Value>
+                            <wd:Range_Begin>3.5</wd:Range_Begin>
+                            <wd:Range_End>4.49</wd:Range_End>
+                        </wd:Proficiency_Rating_Data>
+                        <wd:Proficiency_Rating_Data>
+                            <wd:Proficiency_Rating_ID>PROFICIENCY_RATING-3-12</wd:Proficiency_Rating_ID>
+                            <wd:Rating_Order>f</wd:Rating_Order>
+                            <wd:Rating>Up to 50%</wd:Rating>
+                            <wd:Exclude_From_Calculations>0</wd:Exclude_From_Calculations>
+                            <wd:Rating_Value>5</wd:Rating_Value>
+                            <wd:Range_Begin>4.5</wd:Range_Begin>
+                            <wd:Range_End>5.49</wd:Range_End>
+                        </wd:Proficiency_Rating_Data>
+                        <wd:Proficiency_Rating_Data>
+                            <wd:Proficiency_Rating_ID>PROFICIENCY_RATING-3-13</wd:Proficiency_Rating_ID>
+                            <wd:Rating_Order>g</wd:Rating_Order>
+                            <wd:Rating>More than 50%</wd:Rating>
+                            <wd:Exclude_From_Calculations>0</wd:Exclude_From_Calculations>
+                            <wd:Rating_Value>6</wd:Rating_Value>
+                            <wd:Range_Begin>5.5</wd:Range_Begin>
+                            <wd:Range_End>6</wd:Range_End>
+                        </wd:Proficiency_Rating_Data>
+                    </wd:Proficiency_Rating_Scale_Data>
+                </wd:Proficiency_Rating_Scale>
+            </wd:Response_Data>
+        </wd:Get_Proficiency_Rating_Scales_Response>
+    </env:Body>
+</env:Envelope>

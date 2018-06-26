@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Competency_Categories_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v30.1">
+            <wd:Response_Results>
+                <wd:Total_Results>2</wd:Total_Results>
+                <wd:Total_Pages>8</wd:Total_Pages>
+                <wd:Page_Results>100</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Competency_Category>
+                    <wd:Competency_Category_Reference>
+                        <wd:ID wd:type="WID">c795c5e1bbe2013289fe987a5031b4cd</wd:ID>
+                        <wd:ID wd:type="Competency_Category_ID">LEADERSHIP</wd:ID>
+                    </wd:Competency_Category_Reference>
+                    <wd:Competency_Category_Data>
+                        <wd:Name>Leadership</wd:Name>
+                        <wd:Code>LEADERSHIP</wd:Code>
+                        <wd:Usage_Count>0</wd:Usage_Count>
+                    </wd:Competency_Category_Data>
+                </wd:Competency_Category>
+                <wd:Competency_Category>
+                    <wd:Competency_Category_Reference>
+                        <wd:ID wd:type="WID">c795c5e1bbe20140a7aecb7a5031bdcd</wd:ID>
+                        <wd:ID wd:type="Competency_Category_ID">WAN and Carrier Management</wd:ID>
+                    </wd:Competency_Category_Reference>
+                    <wd:Competency_Category_Data>
+                        <wd:Name>WAN and Carrier Management</wd:Name>
+                        <wd:Code>WAN and Carrier Management</wd:Code>
+                        <wd:Usage_Count>4</wd:Usage_Count>
+                    </wd:Competency_Category_Data>
+                </wd:Competency_Category>
+            </wd:Response_Data>
+        </wd:Get_Competency_Categories_Response>
+    </env:Body>
+</env:Envelope>

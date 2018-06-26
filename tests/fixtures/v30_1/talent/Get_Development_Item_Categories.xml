@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Development_Item_Categories_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v30.1">
+            <wd:Response_Results>
+                <wd:Total_Results>2</wd:Total_Results>
+                <wd:Total_Pages>1</wd:Total_Pages>
+                <wd:Page_Results>2</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Development_Item_Category>
+                    <wd:Development_Item_Category_Reference>
+                        <wd:ID wd:type="WID">f4901389ddd9015d7837f684aa22b98d</wd:ID>
+                        <wd:ID wd:type="Development_Item_Category_ID">DEVELOPMENT_ITEM_CATEGORY-3-1</wd:ID>
+                    </wd:Development_Item_Category_Reference>
+                    <wd:Development_Item_Category_Data>
+                        <wd:ID>DEVELOPMENT_ITEM_CATEGORY-3-1</wd:ID>
+                        <wd:Development_Item_Category_Name>General Development</wd:Development_Item_Category_Name>
+                        <wd:Development_Item_Category_Inactive>0</wd:Development_Item_Category_Inactive>
+                    </wd:Development_Item_Category_Data>
+                </wd:Development_Item_Category>
+                <wd:Development_Item_Category>
+                    <wd:Development_Item_Category_Reference>
+                        <wd:ID wd:type="WID">f4901389ddd901b25a69f684aa22ba8d</wd:ID>
+                        <wd:ID wd:type="Development_Item_Category_ID">DEVELOPMENT_ITEM_CATEGORY-3-2</wd:ID>
+                    </wd:Development_Item_Category_Reference>
+                    <wd:Development_Item_Category_Data>
+                        <wd:ID>DEVELOPMENT_ITEM_CATEGORY-3-2</wd:ID>
+                        <wd:Development_Item_Category_Name>Development Item for Performance Improvement</wd:Development_Item_Category_Name>
+                        <wd:Development_Item_Category_Inactive>0</wd:Development_Item_Category_Inactive>
+                    </wd:Development_Item_Category_Data>
+                </wd:Development_Item_Category>
+            </wd:Response_Data>
+        </wd:Get_Development_Item_Categories_Response>
+    </env:Body>
+</env:Envelope>

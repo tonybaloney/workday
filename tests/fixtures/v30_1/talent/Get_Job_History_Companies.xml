@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Job_History_Companies_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v30.1">
+            <wd:Response_Results>
+                <wd:Total_Results>2</wd:Total_Results>
+                <wd:Total_Pages>1</wd:Total_Pages>
+                <wd:Page_Results>100</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Job_History_Company>
+                    <wd:Job_History_Company_Reference>
+                        <wd:ID wd:type="WID">234234234234</wd:ID>
+                        <wd:ID wd:type="Job_History_Company_ID">JOB_HISTORY_COMPANY-3-1</wd:ID>
+                    </wd:Job_History_Company_Reference>
+                    <wd:Job_History_Company_Data>
+                        <wd:ID>JOB_HISTORY_COMPANY-3-1</wd:ID>
+                        <wd:Name>IyeTek LLC</wd:Name>
+                        <wd:Watched_Company>0</wd:Watched_Company>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Job_History_Company_Data>
+                </wd:Job_History_Company>
+                <wd:Job_History_Company>
+                    <wd:Job_History_Company_Reference>
+                        <wd:ID wd:type="WID">34234234</wd:ID>
+                        <wd:ID wd:type="Job_History_Company_ID">JOB_HISTORY_COMPANY-3-10</wd:ID>
+                    </wd:Job_History_Company_Reference>
+                    <wd:Job_History_Company_Data>
+                        <wd:ID>JOB_HISTORY_COMPANY-3-10</wd:ID>
+                        <wd:Name>Cisco Systems</wd:Name>
+                        <wd:Watched_Company>0</wd:Watched_Company>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Job_History_Company_Data>
+                </wd:Job_History_Company>
+            </wd:Response_Data>
+        </wd:Get_Job_History_Companies_Response>
+    </env:Body>
+</env:Envelope>

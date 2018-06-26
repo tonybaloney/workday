@@ -1,0 +1,972 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Languages_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v30.1">
+            <wd:Response_Results>
+                <wd:Total_Results>87</wd:Total_Results>
+                <wd:Total_Pages>1</wd:Total_Pages>
+                <wd:Page_Results>87</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b1644501bdf38835</wd:ID>
+                        <wd:ID wd:type="Language_ID">English</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>English</wd:ID>
+                        <wd:Language_Description>English</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b1644b266b6b8836</wd:ID>
+                        <wd:ID wd:type="Language_ID">Turkish</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Turkish</wd:ID>
+                        <wd:Language_Description>Turkish</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b1644cf9cfc38837</wd:ID>
+                        <wd:ID wd:type="Language_ID">Swedish</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Swedish</wd:ID>
+                        <wd:Language_Description>Swedish</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b1644ed3cf838838</wd:ID>
+                        <wd:ID wd:type="Language_ID">Spanish</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Spanish</wd:ID>
+                        <wd:Language_Description>Spanish</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b16450ac4c8b8839</wd:ID>
+                        <wd:ID wd:type="Language_ID">Russian</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Russian</wd:ID>
+                        <wd:Language_Description>Russian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b16452ee87e3883a</wd:ID>
+                        <wd:ID wd:type="Language_ID">Romanian</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Romanian</wd:ID>
+                        <wd:Language_Description>Romanian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b16454c77633883b</wd:ID>
+                        <wd:ID wd:type="Language_ID">Portuguese</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Portuguese</wd:ID>
+                        <wd:Language_Description>Portuguese</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b1645681b50b883c</wd:ID>
+                        <wd:ID wd:type="Language_ID">Polish</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Polish</wd:ID>
+                        <wd:Language_Description>Polish</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b164584b8443883d</wd:ID>
+                        <wd:ID wd:type="Language_ID">Norwegian</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Norwegian</wd:ID>
+                        <wd:Language_Description>Norwegian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b1645a15c0db883e</wd:ID>
+                        <wd:ID wd:type="Language_ID">Latin</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Latin</wd:ID>
+                        <wd:Language_Description>Latin</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b1645bf19943883f</wd:ID>
+                        <wd:ID wd:type="Language_ID">Italian</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Italian</wd:ID>
+                        <wd:Language_Description>Italian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b1645dd5ed8b8840</wd:ID>
+                        <wd:ID wd:type="Language_ID">Hungarian</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Hungarian</wd:ID>
+                        <wd:Language_Description>Hungarian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b1645f94b0a38841</wd:ID>
+                        <wd:ID wd:type="Language_ID">Greek</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Greek</wd:ID>
+                        <wd:Language_Description>Greek</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b164616b31db8842</wd:ID>
+                        <wd:ID wd:type="Language_ID">German</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>German</wd:ID>
+                        <wd:Language_Description>German</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b164633606cb8843</wd:ID>
+                        <wd:ID wd:type="Language_ID">French</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>French</wd:ID>
+                        <wd:Language_Description>French</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b16464fbc6f38844</wd:ID>
+                        <wd:ID wd:type="Language_ID">Finnish</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Finnish</wd:ID>
+                        <wd:Language_Description>Finnish</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b164674263638845</wd:ID>
+                        <wd:ID wd:type="Language_ID">Dutch</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Dutch</wd:ID>
+                        <wd:Language_Description>Dutch</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b16468fd464b8846</wd:ID>
+                        <wd:ID wd:type="Language_ID">Czech</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>Czech</wd:ID>
+                        <wd:Language_Description>Czech</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b1646b0c214b8847</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE_SKILL-6-19</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE_SKILL-6-19</wd:ID>
+                        <wd:Language_Description>Chinese - Cantonese</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b1646cf6bb0b8848</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE_SKILL-6-20</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE_SKILL-6-20</wd:ID>
+                        <wd:Language_Description>Chinese - Mandarin</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b1646ee53ccb8849</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE_SKILL-6-21</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE_SKILL-6-21</wd:ID>
+                        <wd:Language_Description>Japanese</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b16470ccadf3884a</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE_SKILL-6-22</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE_SKILL-6-22</wd:ID>
+                        <wd:Language_Description>Bengali</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b164729b4f8b884b</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE_SKILL-6-23</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE_SKILL-6-23</wd:ID>
+                        <wd:Language_Description>Hindi</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b1647460a63b884c</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE_SKILL-6-24</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE_SKILL-6-24</wd:ID>
+                        <wd:Language_Description>Arabic</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1018e1d337956874efa8</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-25</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-25</wd:ID>
+                        <wd:Language_Description>Burmese</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1018e1d337cfa640efa9</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-26</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-26</wd:ID>
+                        <wd:Language_Description>Bulgarian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1018e1d33817b0f1efaa</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-27</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-27</wd:ID>
+                        <wd:Language_Description>Bosnian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1018e1d338396c66efab</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-28</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-28</wd:ID>
+                        <wd:Language_Description>Belarusian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1018e1d33852e38aefac</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-29</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-29</wd:ID>
+                        <wd:Language_Description>Basque</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1018e1d3386be061efad</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-30</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-30</wd:ID>
+                        <wd:Language_Description>Azerbaijani</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1018e1d338827505efae</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-31</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-31</wd:ID>
+                        <wd:Language_Description>Armenian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1018e1d3389bc198efaf</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-32</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-32</wd:ID>
+                        <wd:Language_Description>Amharic</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1018e1d338b1511eefb0</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-33</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-33</wd:ID>
+                        <wd:Language_Description>Albanian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1018e1d338d1fb0befb1</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-34</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-34</wd:ID>
+                        <wd:Language_Description>Afrikaans</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1018fba8c883a6426b3a</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-35</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-35</wd:ID>
+                        <wd:Language_Description>Dari</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1018fba8c8a1d0366b3b</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-36</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-36</wd:ID>
+                        <wd:Language_Description>Danish</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1018fba8c8b7e0406b3c</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-37</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-37</wd:ID>
+                        <wd:Language_Description>Croatian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1018fba8c8ce930f6b3d</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-38</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-38</wd:ID>
+                        <wd:Language_Description>Chinese</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe101901abbc223dd97cfa</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-39</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-39</wd:ID>
+                        <wd:Language_Description>Kannada</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe101901abbc3c2cbd7cfb</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-40</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-40</wd:ID>
+                        <wd:Language_Description>Irish</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe101901abbc520a7e7cfc</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-41</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-41</wd:ID>
+                        <wd:Language_Description>Indonesian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe101901abbc6779867cfd</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-42</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-42</wd:ID>
+                        <wd:Language_Description>Icelandic</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe101901abbc81546c7cfe</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-43</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-43</wd:ID>
+                        <wd:Language_Description>Hebrew</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe101901abbc9c274f7cff</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-44</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-44</wd:ID>
+                        <wd:Language_Description>Hausa</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe101901abbce3656f7d00</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-45</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-45</wd:ID>
+                        <wd:Language_Description>Haitian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe101901abbd02d79f7d01</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-46</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-46</wd:ID>
+                        <wd:Language_Description>Gujarati</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe101901abbd1af1827d02</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-47</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-47</wd:ID>
+                        <wd:Language_Description>Georgian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe101901abbd33e7347d03</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-48</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-48</wd:ID>
+                        <wd:Language_Description>Estorian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f0202cea7d41</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-49</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-49</wd:ID>
+                        <wd:Language_Description>Yoruba</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f03b939d7d42</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-50</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-50</wd:ID>
+                        <wd:Language_Description>Vietnamese</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f05314ad7d43</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-51</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-51</wd:ID>
+                        <wd:Language_Description>Uzbek</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f06b8c927d44</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-52</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-52</wd:ID>
+                        <wd:Language_Description>Urdu</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f0816a107d45</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-53</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-53</wd:ID>
+                        <wd:Language_Description>Ukrainian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f0975ada7d46</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-54</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-54</wd:ID>
+                        <wd:Language_Description>Uighur</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f0ca42487d47</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-55</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-55</wd:ID>
+                        <wd:Language_Description>Turkmen</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f0e0b42f7d48</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-56</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-56</wd:ID>
+                        <wd:Language_Description>Tibetan</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f0f6c73e7d49</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-57</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-57</wd:ID>
+                        <wd:Language_Description>Thai</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f10cd88f7d4a</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-58</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-58</wd:ID>
+                        <wd:Language_Description>Telugu</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f122763a7d4b</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-59</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-59</wd:ID>
+                        <wd:Language_Description>Tamil</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f1384de27d4c</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-60</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-60</wd:ID>
+                        <wd:Language_Description>Tajik</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f14e5e517d4d</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-61</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-61</wd:ID>
+                        <wd:Language_Description>Tagalog</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f16414c07d4e</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-62</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-62</wd:ID>
+                        <wd:Language_Description>Swahili</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f17a2f607d4f</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-63</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-63</wd:ID>
+                        <wd:Language_Description>Somali</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f191ee257d50</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-64</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-64</wd:ID>
+                        <wd:Language_Description>Slovene</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f1c5f1cd7d51</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-65</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-65</wd:ID>
+                        <wd:Language_Description>Slovak</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f1e27b477d52</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-66</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-66</wd:ID>
+                        <wd:Language_Description>Sinhala</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f212cf0b7d53</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-67</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-67</wd:ID>
+                        <wd:Language_Description>Sindhi</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f22ff4a07d54</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-68</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-68</wd:ID>
+                        <wd:Language_Description>Serbian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f254c52d7d55</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-69</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-69</wd:ID>
+                        <wd:Language_Description>Quechua</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f26e01127d56</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-70</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-70</wd:ID>
+                        <wd:Language_Description>Punjabi</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f286419f7d57</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-71</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-71</wd:ID>
+                        <wd:Language_Description>Persian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f29f78d47d58</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-72</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-72</wd:ID>
+                        <wd:Language_Description>Pashto</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f2b8885d7d59</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-73</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-73</wd:ID>
+                        <wd:Language_Description>Nepali</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f2d2e6737d5a</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-74</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-74</wd:ID>
+                        <wd:Language_Description>Mongolian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f3066edd7d5b</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-75</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-75</wd:ID>
+                        <wd:Language_Description>Marathi</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f31ead957d5c</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-76</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-76</wd:ID>
+                        <wd:Language_Description>Malayalam</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f3377bb77d5d</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-77</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-77</wd:ID>
+                        <wd:Language_Description>Malay</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f35545cf7d5e</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-78</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-78</wd:ID>
+                        <wd:Language_Description>Macedonian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f36f73587d5f</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-79</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-79</wd:ID>
+                        <wd:Language_Description>Lithuanian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f388e4a87d60</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-80</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-80</wd:ID>
+                        <wd:Language_Description>Latvian</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f3a0fddc7d61</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-81</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-81</wd:ID>
+                        <wd:Language_Description>Lao</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f3b904d07d62</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-82</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-82</wd:ID>
+                        <wd:Language_Description>Kyrgyz</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f3d0ec827d63</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-83</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-83</wd:ID>
+                        <wd:Language_Description>Korean</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f3f371027d64</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-84</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-84</wd:ID>
+                        <wd:Language_Description>Khmer</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe10190213f42f194a7d65</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-85</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-85</wd:ID>
+                        <wd:Language_Description>Kazakh</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe1019022d98009c837d6c</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-86</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-86</wd:ID>
+                        <wd:Language_Description>Catalan</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+                <wd:Language>
+                    <wd:Language_Reference>
+                        <wd:ID wd:type="WID">61138ef6eebe101902aa522edff97e78</wd:ID>
+                        <wd:ID wd:type="Language_ID">LANGUAGE-3-87</wd:ID>
+                    </wd:Language_Reference>
+                    <wd:Language_Data>
+                        <wd:ID>LANGUAGE-3-87</wd:ID>
+                        <wd:Language_Description>Urdu</wd:Language_Description>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Language_Data>
+                </wd:Language>
+            </wd:Response_Data>
+        </wd:Get_Languages_Response>
+    </env:Body>
+</env:Envelope>

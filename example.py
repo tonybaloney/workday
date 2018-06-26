@@ -29,7 +29,31 @@ def main():
         disable_ssl_verification=True, 
         )
 
-    print(client.talent.Get_Competencies().data)
+    # print(client.talent.Get_Certification_Issuers().data)
+    certs = client.talent.Get_Certifications()
+    results = certs.data['Certification']
+    for page in range(1, certs.total_pages):
+        response = client.talent.Get_Certifications(Response_Filter={'Page': page+1})
+        results.extend(response.data['Certification'])
+    print(results)
+
+    # print(client.talent.Get_Competencies().data)
+    # print(client.talent.Get_Competency_Categories().data)
+    # print(client.talent.Get_Competency_Classes().data)
+    # #print(client.talent.Get_Connection_Types().data)
+    # #print(client.talent.Get_Contact_Connections().data)
+    # print(client.talent.Get_Degrees().data)
+    # print(client.talent.Get_Development_Item_Categories().data)
+    # print(client.talent.Get_Development_Item_Status().data)
+    # # print(client.talent.Get_Development_Items().data)
+    # print(client.talent.Get_Fields_Of_Study().data)
+    # print(client.talent.Get_Job_History_Companies().data)
+    # print(client.talent.Get_Language_Proficiency_Levels().data)
+    # print(client.talent.Get_Languages().data)
+    # #print(client.talent.Get_Mentor_Options().data)
+    # #print(client.talent.Get_Mentorships().data)
+    # print(client.talent.Get_Proficiency_Rating_Scales().data)
+
 
 if __name__ == '__main__':
     main()

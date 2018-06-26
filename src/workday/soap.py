@@ -39,19 +39,19 @@ class WorkdayResponse(object):
 
     @property
     def total_results(self):
-        return self._response["Response_Results"]["Total_Results"]
+        return int(self._response["Response_Results"]["Total_Results"])
 
     @property
     def total_pages(self):
-        return self._response["Response_Results"]["Total_Pages"]
+        return int(self._response["Response_Results"]["Total_Pages"])
 
     @property
     def page_results(self):
-        return self._response["Response_Results"]["Page_Results"]
+        return int(self._response["Response_Results"]["Page_Results"])
 
     @property
     def page(self):
-        return self._response["Response_Results"]["Page"]
+        return int(self._response["Response_Results"]["Page"])
 
     @property
     def data(self):

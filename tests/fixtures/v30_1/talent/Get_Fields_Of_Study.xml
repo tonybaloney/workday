@@ -1,0 +1,1115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Fields_Of_Study_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v30.1">
+            <wd:Response_Results>
+                <wd:Total_Results>666</wd:Total_Results>
+                <wd:Total_Pages>7</wd:Total_Pages>
+                <wd:Page_Results>100</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0dffcedd6bb8692</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">CANADIAN_STUDIES</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>CANADIAN_STUDIES</wd:ID>
+                        <wd:Name>Canadian Studies</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e0117a757b869b</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">CLINICAL_PSYCHOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>CLINICAL_PSYCHOLOGY</wd:ID>
+                        <wd:Name>Clinical Psychology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e01362e0a3869c</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">HUMAN_DEVELOPMENT</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>HUMAN_DEVELOPMENT</wd:ID>
+                        <wd:Name>Human Development</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e0152d57d3869d</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">HUMAN_RESOURCES_MANAGEMENT</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>HUMAN_RESOURCES_MANAGEMENT</wd:ID>
+                        <wd:Name>Human Resources Management</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e01704178b869e</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ILLUSTRATION</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ILLUSTRATION</wd:ID>
+                        <wd:Name>Illustration</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e018d005bb869f</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">INDUSTRIAL_DESIGN</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>INDUSTRIAL_DESIGN</wd:ID>
+                        <wd:Name>Industrial Design</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e01aa84c1386a0</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">INDUSTRIAL_ENGINEERING</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>INDUSTRIAL_ENGINEERING</wd:ID>
+                        <wd:Name>Industrial Engineering</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e01c84d44386a1</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">INDUSTRIAL_MANAGEMENT</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>INDUSTRIAL_MANAGEMENT</wd:ID>
+                        <wd:Name>Industrial Management</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e01e59888b86a2</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">INDUSTRIAL_PSYCHOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>INDUSTRIAL_PSYCHOLOGY</wd:ID>
+                        <wd:Name>Industrial Psychology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e0202422e386a3</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">INFORMATION_TECHNOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>INFORMATION_TECHNOLOGY</wd:ID>
+                        <wd:Name>Information Technology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e0c5f752cb86f5</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PIANO</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PIANO</wd:ID>
+                        <wd:Name>Piano</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e19f8ab9ab86f7</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">CARIBBEAN_STUDIES</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>CARIBBEAN_STUDIES</wd:ID>
+                        <wd:Name>Caribbean Studies</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1a165f5d386f8</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">COGNITIVE_PSYCHOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>COGNITIVE_PSYCHOLOGY</wd:ID>
+                        <wd:Name>Cognitive Psychology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1a36407f386f9</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">COMMUNICATION_DISORDERS</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>COMMUNICATION_DISORDERS</wd:ID>
+                        <wd:Name>Communication Disorders</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1a539c5db86fa</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">COMMUNICATIONS_STUDIES_SPEECH_COMMUNICATION_AND_RHETORIC</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>COMMUNICATIONS_STUDIES_SPEECH_COMMUNICATION_AND_RHETORIC</wd:ID>
+                        <wd:Name>Communications Studies/Speech Communication and Rhetoric</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1a6f1ab2386fb</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">COMPARATIVE_LITERATURE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>COMPARATIVE_LITERATURE</wd:ID>
+                        <wd:Name>Comparative Literature</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1a8c044eb86fc</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">COMPUTER_AND_INFORMATION_SCIENCE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>COMPUTER_AND_INFORMATION_SCIENCE</wd:ID>
+                        <wd:Name>Computer and Information Science</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1aae6ca8386fd</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">COMPUTER_ENGINEERING</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>COMPUTER_ENGINEERING</wd:ID>
+                        <wd:Name>Computer Engineering</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1acbdd08b86fe</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">COMPUTER_GRAPHICS</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>COMPUTER_GRAPHICS</wd:ID>
+                        <wd:Name>Computer Graphics</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1ae931d2b86ff</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">COMPUTER_SYSTEMS_ANALYSIS</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>COMPUTER_SYSTEMS_ANALYSIS</wd:ID>
+                        <wd:Name>Computer Systems Analysis</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1b0500f6b8700</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">CONSTRUCTION_MANAGEMENT</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>CONSTRUCTION_MANAGEMENT</wd:ID>
+                        <wd:Name>Construction Management</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1b21830f38701</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PLANETARY_SCIENCE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PLANETARY_SCIENCE</wd:ID>
+                        <wd:Name>Planetary Science</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1b3e1f08b8702</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PLANT_PATHOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PLANT_PATHOLOGY</wd:ID>
+                        <wd:Name>Plant Pathology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1b5b9cd6b8703</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PLAYWRITING_AND_SCREENWRITING</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PLAYWRITING_AND_SCREENWRITING</wd:ID>
+                        <wd:Name>Playwriting and Screenwriting</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1b773d1ab8704</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">POLITICAL_COMMUNICATION</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>POLITICAL_COMMUNICATION</wd:ID>
+                        <wd:Name>Political Communication</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1b93459e38705</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">POLITICAL_SCIENCE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>POLITICAL_SCIENCE</wd:ID>
+                        <wd:Name>Political Science</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1bae7e9cb8706</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PORTUGUESE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PORTUGUESE</wd:ID>
+                        <wd:Name>Portuguese</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1bc94038b8707</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PRE_DENTISTRY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PRE_DENTISTRY</wd:ID>
+                        <wd:Name>Pre-Dentistry</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1be5109538708</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PRE_LAW</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PRE_LAW</wd:ID>
+                        <wd:Name>Pre-Law</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1c018f42b8709</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PRE_MEDICINE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PRE_MEDICINE</wd:ID>
+                        <wd:Name>Pre-Medicine</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1c1d4bd8b870a</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PRE_OPTOMETRY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PRE_OPTOMETRY</wd:ID>
+                        <wd:Name>Pre-Optometry</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1c3abc77b870b</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PRE_SEMINARY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PRE_SEMINARY</wd:ID>
+                        <wd:Name>Pre-Seminary</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1c5a3c6eb870c</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ACCOUNTING</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ACCOUNTING</wd:ID>
+                        <wd:Name>Accounting</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1c7cb7d33870d</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ACTUARIAL_SCIENCE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ACTUARIAL_SCIENCE</wd:ID>
+                        <wd:Name>Actuarial Science</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1c9c26f1b870e</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ADVERTISING</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ADVERTISING</wd:ID>
+                        <wd:Name>Advertising</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1cba90583870f</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AEROSPACE_ENGINEERING</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AEROSPACE_ENGINEERING</wd:ID>
+                        <wd:Name>Aerospace Engineering</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1cda003238710</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AFRICAN_LANGUAGES_LITERATURES_AND_LINGUISTICS</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AFRICAN_LANGUAGES_LITERATURES_AND_LINGUISTICS</wd:ID>
+                        <wd:Name>African Languages, Literatures, and Linguistics</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1cf6c7df38711</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AFRICAN_STUDIES</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AFRICAN_STUDIES</wd:ID>
+                        <wd:Name>African Studies</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1d15441238712</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AFRICAN_AMERICAN_STUDIES</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AFRICAN_AMERICAN_STUDIES</wd:ID>
+                        <wd:Name>African-American Studies</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1d32edd238713</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AGRICULTURAL_BUSINESS_AND_MANAGEMENT</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AGRICULTURAL_BUSINESS_AND_MANAGEMENT</wd:ID>
+                        <wd:Name>Agricultural Business and Management</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1d5139ae38714</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AGRICULTURAL_ECONOMICS</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AGRICULTURAL_ECONOMICS</wd:ID>
+                        <wd:Name>Agricultural Economics</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1d6d1ae338715</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AGRICULTURAL_EDUCATION</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AGRICULTURAL_EDUCATION</wd:ID>
+                        <wd:Name>Agricultural Education</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1d88aa8d38716</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AGRICULTURAL_JOURNALISM</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AGRICULTURAL_JOURNALISM</wd:ID>
+                        <wd:Name>Agricultural Journalism</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1da52ab1b8717</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AGRICULTURAL_MECHANIZATION</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AGRICULTURAL_MECHANIZATION</wd:ID>
+                        <wd:Name>Agricultural Mechanization</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1dc10b69b8718</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AGRICULTURAL_TECHNOLOGY_MANAGEMENT</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AGRICULTURAL_TECHNOLOGY_MANAGEMENT</wd:ID>
+                        <wd:Name>Agricultural Technology Management</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1ddd699eb8719</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AGRICULTURAL_BIOLOGICAL_ENGINEERING_AND_BIOENGINEERING</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AGRICULTURAL_BIOLOGICAL_ENGINEERING_AND_BIOENGINEERING</wd:ID>
+                        <wd:Name>Agricultural/Biological Engineering and Bioengineering</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1dfb06acb871a</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AGRICULTURE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AGRICULTURE</wd:ID>
+                        <wd:Name>Agriculture</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1e16d2a43871b</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AGRONOMY_AND_CROP_SCIENCE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AGRONOMY_AND_CROP_SCIENCE</wd:ID>
+                        <wd:Name>Agronomy and Crop Science</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1e3248abb871c</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AIR_TRAFFIC_CONTROL</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AIR_TRAFFIC_CONTROL</wd:ID>
+                        <wd:Name>Air Traffic Control</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1e4eea813871d</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AMERICAN_HISTORY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AMERICAN_HISTORY</wd:ID>
+                        <wd:Name>American History</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1e6a8c3c3871e</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AMERICAN_LITERATURE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AMERICAN_LITERATURE</wd:ID>
+                        <wd:Name>American Literature</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1e87152ab871f</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AMERICAN_SIGN_LANGUAGE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AMERICAN_SIGN_LANGUAGE</wd:ID>
+                        <wd:Name>American Sign Language</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1ea218f038720</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AMERICAN_STUDIES</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AMERICAN_STUDIES</wd:ID>
+                        <wd:Name>American Studies</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1ebf827ab8721</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ANATOMY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ANATOMY</wd:ID>
+                        <wd:Name>Anatomy</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1edee90db8722</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ANCIENT_STUDIES</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ANCIENT_STUDIES</wd:ID>
+                        <wd:Name>Ancient Studies</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1efb22a3b8723</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ANIMAL_BEHAVIOR_AND_ETHOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ANIMAL_BEHAVIOR_AND_ETHOLOGY</wd:ID>
+                        <wd:Name>Animal Behavior and Ethology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1f17afb8b8724</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ANIMAL_SCIENCE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ANIMAL_SCIENCE</wd:ID>
+                        <wd:Name>Animal Science</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1f33a187b8725</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ANIMATION_AND_SPECIAL_EFFECTS</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ANIMATION_AND_SPECIAL_EFFECTS</wd:ID>
+                        <wd:Name>Animation and Special Effects</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1f507e33b8726</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ANTHROPOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ANTHROPOLOGY</wd:ID>
+                        <wd:Name>Anthropology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1f6dbbcc38727</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">APPLIED_MATHEMATICS</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>APPLIED_MATHEMATICS</wd:ID>
+                        <wd:Name>Applied Mathematics</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1f8d114838728</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">APPLIED_PHYSICS</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>APPLIED_PHYSICS</wd:ID>
+                        <wd:Name>Applied Physics</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1fb19fecb8729</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AQUACULTURE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AQUACULTURE</wd:ID>
+                        <wd:Name>Aquaculture</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1fd0bff13872a</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">AQUATIC_BIOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>AQUATIC_BIOLOGY</wd:ID>
+                        <wd:Name>Aquatic Biology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e1fee11cd3872b</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ARABIC</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ARABIC</wd:ID>
+                        <wd:Name>Arabic</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e200b20473872c</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ARCHEOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ARCHEOLOGY</wd:ID>
+                        <wd:Name>Archeology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e20295b0c3872d</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ARCHITECTURAL_ENGINEERING</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ARCHITECTURAL_ENGINEERING</wd:ID>
+                        <wd:Name>Architectural Engineering</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e204775973872e</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ARCHITECTURAL_HISTORY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ARCHITECTURAL_HISTORY</wd:ID>
+                        <wd:Name>Architectural History</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e206633383872f</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ARCHITECTURE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ARCHITECTURE</wd:ID>
+                        <wd:Name>Architecture</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e2084a5a738730</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ART</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ART</wd:ID>
+                        <wd:Name>Art</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e20a1df57b8731</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ART_EDUCATION</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ART_EDUCATION</wd:ID>
+                        <wd:Name>Art Education</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e20beba0fb8732</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ART_HISTORY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ART_HISTORY</wd:ID>
+                        <wd:Name>Art History</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e20dc007238733</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ART_THERAPY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ART_THERAPY</wd:ID>
+                        <wd:Name>Art Therapy</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e20f8bd22b8734</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ARTIFICIAL_INTELLIGENCE_AND_ROBOTICS</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ARTIFICIAL_INTELLIGENCE_AND_ROBOTICS</wd:ID>
+                        <wd:Name>Artificial Intelligence and Robotics</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e21154ab4b8735</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ASIAN_AMERICAN_STUDIES</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ASIAN_AMERICAN_STUDIES</wd:ID>
+                        <wd:Name>Asian-American Studies</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e2132846538736</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">ASTRONOMY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>ASTRONOMY</wd:ID>
+                        <wd:Name>Astronomy</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e214f891b38737</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PRE_VETERINARY_MEDICINE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PRE_VETERINARY_MEDICINE</wd:ID>
+                        <wd:Name>Pre-Veterinary Medicine</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e216c60a6b8738</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PRINTMAKING</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PRINTMAKING</wd:ID>
+                        <wd:Name>Printmaking</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e2188c4b7b8739</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PSYCHOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PSYCHOLOGY</wd:ID>
+                        <wd:Name>Psychology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e21a53386b873a</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PUBLIC_ADMINISTRATION</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PUBLIC_ADMINISTRATION</wd:ID>
+                        <wd:Name>Public Administration</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e21c1d9443873b</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PUBLIC_HEALTH</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PUBLIC_HEALTH</wd:ID>
+                        <wd:Name>Public Health</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e21de55bf3873c</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PUBLIC_POLICY_ANALYSIS</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PUBLIC_POLICY_ANALYSIS</wd:ID>
+                        <wd:Name>Public Policy Analysis</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e21fa24e33873d</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">PUBLIC_RELATIONS</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>PUBLIC_RELATIONS</wd:ID>
+                        <wd:Name>Public Relations</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e2215e2f03873e</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">RADIO_AND_TELEVISION</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>RADIO_AND_TELEVISION</wd:ID>
+                        <wd:Name>Radio and Television</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e22327a07b873f</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">RADIOLOGIC_TECHNOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>RADIOLOGIC_TECHNOLOGY</wd:ID>
+                        <wd:Name>Radiologic Technology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e224edaadb8740</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">RANGE_SCIENCE_AND_MANAGEMENT</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>RANGE_SCIENCE_AND_MANAGEMENT</wd:ID>
+                        <wd:Name>Range Science and Management</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e226a7af1b8741</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">REAL_ESTATE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>REAL_ESTATE</wd:ID>
+                        <wd:Name>Real Estate</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e22863e9c38742</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">RECORDING_ARTS_TECHNOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>RECORDING_ARTS_TECHNOLOGY</wd:ID>
+                        <wd:Name>Recording Arts Technology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e22a2ccab38743</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">RECREATION_MANAGEMENT</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>RECREATION_MANAGEMENT</wd:ID>
+                        <wd:Name>Recreation Management</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e22c0599c38744</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">REHABILITATION_SERVICES</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>REHABILITATION_SERVICES</wd:ID>
+                        <wd:Name>Rehabilitation Services</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e22dd3d9b38745</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">RELIGIOUS_STUDIES</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>RELIGIOUS_STUDIES</wd:ID>
+                        <wd:Name>Religious Studies</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e22f99dc438746</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">RESPIRATORY_THERAPY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>RESPIRATORY_THERAPY</wd:ID>
+                        <wd:Name>Respiratory Therapy</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e2315557838747</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">RISK_MANAGEMENT</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>RISK_MANAGEMENT</wd:ID>
+                        <wd:Name>Risk Management</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e2332368938748</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">RURAL_SOCIOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>RURAL_SOCIOLOGY</wd:ID>
+                        <wd:Name>Rural Sociology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e234f8efcb8749</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">RUSSIAN</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>RUSSIAN</wd:ID>
+                        <wd:Name>Russian</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e236c0de8b874a</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">SCANDINAVIAN_STUDIES</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>SCANDINAVIAN_STUDIES</wd:ID>
+                        <wd:Name>Scandinavian Studies</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e2387fc8b3874b</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">SCULPTURE</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>SCULPTURE</wd:ID>
+                        <wd:Name>Sculpture</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e23a43ac4b874c</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">SLAVIC_LANGUAGES_AND_LITERATURES</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>SLAVIC_LANGUAGES_AND_LITERATURES</wd:ID>
+                        <wd:Name>Slavic Languages and Literatures</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e23c0f5813874d</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">SOCIAL_PSYCHOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>SOCIAL_PSYCHOLOGY</wd:ID>
+                        <wd:Name>Social Psychology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e23dd7eae3874e</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">SOCIAL_WORK</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>SOCIAL_WORK</wd:ID>
+                        <wd:Name>Social Work</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+                <wd:Field_Of_Study>
+                    <wd:Field_Of_Study_Reference>
+                        <wd:ID wd:type="WID">f942185b33c210c3b0e23fcf790b874f</wd:ID>
+                        <wd:ID wd:type="Field_Of_Study_ID">SOCIOLOGY</wd:ID>
+                    </wd:Field_Of_Study_Reference>
+                    <wd:Field_Of_Study_Data>
+                        <wd:ID>SOCIOLOGY</wd:ID>
+                        <wd:Name>Sociology</wd:Name>
+                        <wd:Inactive>0</wd:Inactive>
+                    </wd:Field_Of_Study_Data>
+                </wd:Field_Of_Study>
+            </wd:Response_Data>
+        </wd:Get_Fields_Of_Study_Response>
+    </env:Body>
+</env:Envelope>

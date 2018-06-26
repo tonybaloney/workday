@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Competencies_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v30.1">
+            <wd:Response_Results>
+                <wd:Total_Results>2</wd:Total_Results>
+                <wd:Total_Pages>1</wd:Total_Pages>
+                <wd:Page_Results>100</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Competency>
+                    <wd:Competency_Reference>
+                        <wd:ID wd:type="WID">234234234</wd:ID>
+                        <wd:ID wd:type="Competency_ID">Networking - WIRED &amp; WIRELESS_ RF Analysis &amp; Design_Ability to analyse, intrepret and troubleshoot  RF environment based on spectrum analysis</wd:ID>
+                    </wd:Competency_Reference>
+                    <wd:Competency_Data>
+                        <wd:Competency_ID>Networking - WIRED &amp; WIRELESS_ RF Analysis &amp; Design_Ability to analyse, intrepret and troubleshoot  RF environment based on spectrum analysis</wd:Competency_ID>
+                        <wd:Competency_Name>Networking - WIRED &amp; WIRELESS_ RF Analysis &amp; Design_Ability to analyse, intrepret and troubleshoot  RF environment based on spectrum analysis</wd:Competency_Name>
+                        <wd:Description_Applies_to_All_Levels>1</wd:Description_Applies_to_All_Levels>
+                        <wd:Competency_Category_Reference>
+                            <wd:ID wd:type="WID">234234</wd:ID>
+                            <wd:ID wd:type="Competency_Category_ID">RF Analysis &amp; Design</wd:ID>
+                        </wd:Competency_Category_Reference>
+                        <wd:Proficiency_Rating_Behavior_Data>
+                            <wd:Proficiency_Rating_Reference>
+                                <wd:ID wd:type="WID">23423</wd:ID>
+                                <wd:ID wd:type="Proficiency_Rating_ID">0</wd:ID>
+                            </wd:Proficiency_Rating_Reference>
+                            <wd:Rating_Behavior>The employee is not required to apply or demonstrate this competency. This competency is not applicable to their role.</wd:Rating_Behavior>
+                        </wd:Proficiency_Rating_Behavior_Data>
+                        <wd:Proficiency_Rating_Behavior_Data>
+                            <wd:Proficiency_Rating_Reference>
+                                <wd:ID wd:type="WID">234234</wd:ID>
+                                <wd:ID wd:type="Proficiency_Rating_ID">1</wd:ID>
+                            </wd:Proficiency_Rating_Reference>
+                            <wd:Rating_Behavior>Fundamental awareness  Common knowledge or an understanding of the basic techniques and concepts; Primary focus is on learning; Only performs task driven job activities; Requires ""hands-on"" supervision and guidance; Limited exposure to Dimension Data and/or client environment.</wd:Rating_Behavior>
+                        </wd:Proficiency_Rating_Behavior_Data>
+                        <wd:Proficiency_Rating_Behavior_Data>
+                            <wd:Proficiency_Rating_Reference>
+                                <wd:ID wd:type="WID">234234</wd:ID>
+                                <wd:ID wd:type="Proficiency_Rating_ID">2</wd:ID>
+                            </wd:Proficiency_Rating_Reference>
+                            <wd:Rating_Behavior>Limited experience Displays the level of experience required for ""on-the-job.""  Still needs support with developing practical experience; Understands the basic requirements and can discuss terminology, concepts, principles and issues; Utilises the full range of reference and resource materials required to effectively perform in their role.</wd:Rating_Behavior>
+                        </wd:Proficiency_Rating_Behavior_Data>
+                        <wd:Proficiency_Rating_Behavior_Data>
+                            <wd:Proficiency_Rating_Reference>
+                                <wd:ID wd:type="WID">23423</wd:ID>
+                                <wd:ID wd:type="Proficiency_Rating_ID">3</wd:ID>
+                            </wd:Proficiency_Rating_Reference>
+                            <wd:Rating_Behavior>Practical application  Successful task completion within requirements; Perform skills independently with minimal guidance, with ad-hoc expert guidance required; Emphasis is on applying and enhancing knowledge and skills; Capable of discussing the application and implications of changes to processes, policies and procedures.</wd:Rating_Behavior>
+                        </wd:Proficiency_Rating_Behavior_Data>
+                        <wd:Proficiency_Rating_Behavior_Data>
+                            <wd:Proficiency_Rating_Reference>
+                                <wd:ID wd:type="WID">23423423</wd:ID>
+                                <wd:ID wd:type="Proficiency_Rating_ID">4</wd:ID>
+                            </wd:Proficiency_Rating_Reference>
+                            <wd:Rating_Behavior>Applied theory  No supervisory assistance required; Perceived by colleagues to consult from an informed knowledge base; Focus is on broad organisational/professional issues; Provides practical and relevant ideas and perspectives on process/ practice improvements (easy implementation); Coaches others by translating complex nuances into easy to understand terms; Participates in senior level, strategic discussions; Can develop reference and resource materials in area of expertise.</wd:Rating_Behavior>
+                        </wd:Proficiency_Rating_Behavior_Data>
+                        <wd:Proficiency_Rating_Behavior_Data>
+                            <wd:Proficiency_Rating_Reference>
+                                <wd:ID wd:type="WID">23423</wd:ID>
+                                <wd:ID wd:type="Proficiency_Rating_ID">5</wd:ID>
+                            </wd:Proficiency_Rating_Reference>
+                            <wd:Rating_Behavior>Recognised authority  Thought-leader and expert. Provides guidance, troubleshoots problems and answer questions; Focus is primarily strategic; Application across multiple projects and/or organisation areas; Expert specialist or generalist within and/or outside Dimension Data; Leads the development of reference and resource materials; Explains the relevant process elements and issues in relation to organisational issues and trends in sufficient detail during discussions and presentations.  Fosters a greater understanding among internal and external stakeholders.</wd:Rating_Behavior>
+                        </wd:Proficiency_Rating_Behavior_Data>
+                        <wd:Inactive>0</wd:Inactive>
+                        <wd:Effective_Date>2018-06-25-07:00</wd:Effective_Date>
+                        <wd:Proficiency_Rating_Scale_Reference>
+                            <wd:ID wd:type="WID">234234</wd:ID>
+                            <wd:ID wd:type="Rating_Scale_ID">PROFICIENCY_RATING_SCALE-9-3</wd:ID>
+                        </wd:Proficiency_Rating_Scale_Reference>
+                        <wd:Behaviors_Apply_to_All_Levels>0</wd:Behaviors_Apply_to_All_Levels>
+                        <wd:Used_For_Talent_Matrix>0</wd:Used_For_Talent_Matrix>
+                    </wd:Competency_Data>
+                </wd:Competency>
+                <wd:Competency>
+                    <wd:Competency_Reference>
+                        <wd:ID wd:type="WID">23423424</wd:ID>
+                        <wd:ID wd:type="Competency_ID">Networking - WIRED &amp; WIRELESS_Cloud Managed Networks_Ability to design and deploy Meraki switch and WLAN network</wd:ID>
+                    </wd:Competency_Reference>
+                    <wd:Competency_Data>
+                        <wd:Competency_ID>Networking - WIRED &amp; WIRELESS_Cloud Managed Networks_Ability to design and deploy Meraki switch and WLAN network</wd:Competency_ID>
+                        <wd:Competency_Name>Networking - WIRED &amp; WIRELESS_Cloud Managed Networks_Ability to design and deploy Meraki switch and WLAN network</wd:Competency_Name>
+                        <wd:Description_Applies_to_All_Levels>1</wd:Description_Applies_to_All_Levels>
+                        <wd:Competency_Category_Reference>
+                            <wd:ID wd:type="WID">c795c5e1bbe201d59072e97a5031c5cd</wd:ID>
+                            <wd:ID wd:type="Competency_Category_ID">Cloud Managed Networks</wd:ID>
+                        </wd:Competency_Category_Reference>
+                        <wd:Proficiency_Rating_Behavior_Data>
+                            <wd:Proficiency_Rating_Reference>
+                                <wd:ID wd:type="WID">234234234</wd:ID>
+                                <wd:ID wd:type="Proficiency_Rating_ID">0</wd:ID>
+                            </wd:Proficiency_Rating_Reference>
+                            <wd:Rating_Behavior>The employee is not required to apply or demonstrate this competency. This competency is not applicable to their role.</wd:Rating_Behavior>
+                        </wd:Proficiency_Rating_Behavior_Data>
+                        <wd:Proficiency_Rating_Behavior_Data>
+                            <wd:Proficiency_Rating_Reference>
+                                <wd:ID wd:type="WID">23423424</wd:ID>
+                                <wd:ID wd:type="Proficiency_Rating_ID">1</wd:ID>
+                            </wd:Proficiency_Rating_Reference>
+                            <wd:Rating_Behavior>Fundamental awareness  Common knowledge or an understanding of the basic techniques and concepts; Primary focus is on learning; Only performs task driven job activities; Requires ""hands-on"" supervision and guidance; Limited exposure to Dimension Data and/or client environment.</wd:Rating_Behavior>
+                        </wd:Proficiency_Rating_Behavior_Data>
+                        <wd:Proficiency_Rating_Behavior_Data>
+                            <wd:Proficiency_Rating_Reference>
+                                <wd:ID wd:type="WID">234234234</wd:ID>
+                                <wd:ID wd:type="Proficiency_Rating_ID">2</wd:ID>
+                            </wd:Proficiency_Rating_Reference>
+                            <wd:Rating_Behavior>Limited experience Displays the level of experience required for ""on-the-job.""  Still needs support with developing practical experience; Understands the basic requirements and can discuss terminology, concepts, principles and issues; Utilises the full range of reference and resource materials required to effectively perform in their role.</wd:Rating_Behavior>
+                        </wd:Proficiency_Rating_Behavior_Data>
+                        <wd:Proficiency_Rating_Behavior_Data>
+                            <wd:Proficiency_Rating_Reference>
+                                <wd:ID wd:type="WID">32423423423</wd:ID>
+                                <wd:ID wd:type="Proficiency_Rating_ID">3</wd:ID>
+                            </wd:Proficiency_Rating_Reference>
+                            <wd:Rating_Behavior>Practical application  Successful task completion within requirements; Perform skills independently with minimal guidance, with ad-hoc expert guidance required; Emphasis is on applying and enhancing knowledge and skills; Capable of discussing the application and implications of changes to processes, policies and procedures.</wd:Rating_Behavior>
+                        </wd:Proficiency_Rating_Behavior_Data>
+                        <wd:Proficiency_Rating_Behavior_Data>
+                            <wd:Proficiency_Rating_Reference>
+                                <wd:ID wd:type="WID">234324234333</wd:ID>
+                                <wd:ID wd:type="Proficiency_Rating_ID">4</wd:ID>
+                            </wd:Proficiency_Rating_Reference>
+                            <wd:Rating_Behavior>Applied theory  No supervisory assistance required; Perceived by colleagues to consult from an informed knowledge base; Focus is on broad organisational/professional issues; Provides practical and relevant ideas and perspectives on process/ practice improvements (easy implementation); Coaches others by translating complex nuances into easy to understand terms; Participates in senior level, strategic discussions; Can develop reference and resource materials in area of expertise.</wd:Rating_Behavior>
+                        </wd:Proficiency_Rating_Behavior_Data>
+                        <wd:Proficiency_Rating_Behavior_Data>
+                            <wd:Proficiency_Rating_Reference>
+                                <wd:ID wd:type="WID">234234234234</wd:ID>
+                                <wd:ID wd:type="Proficiency_Rating_ID">5</wd:ID>
+                            </wd:Proficiency_Rating_Reference>
+                            <wd:Rating_Behavior>Recognised authority  Thought-leader and expert. Provides guidance, troubleshoots problems and answer questions; Focus is primarily strategic; Application across multiple projects and/or organisation areas; Expert specialist or generalist within and/or outside Dimension Data; Leads the development of reference and resource materials; Explains the relevant process elements and issues in relation to organisational issues and trends in sufficient detail during discussions and presentations.  Fosters a greater understanding among internal and external stakeholders.</wd:Rating_Behavior>
+                        </wd:Proficiency_Rating_Behavior_Data>
+                        <wd:Inactive>0</wd:Inactive>
+                        <wd:Effective_Date>2018-06-25-07:00</wd:Effective_Date>
+                        <wd:Proficiency_Rating_Scale_Reference>
+                            <wd:ID wd:type="WID">2349827348972348</wd:ID>
+                            <wd:ID wd:type="Rating_Scale_ID">PROFICIENCY_RATING_SCALE-9-3</wd:ID>
+                        </wd:Proficiency_Rating_Scale_Reference>
+                        <wd:Behaviors_Apply_to_All_Levels>0</wd:Behaviors_Apply_to_All_Levels>
+                        <wd:Used_For_Talent_Matrix>0</wd:Used_For_Talent_Matrix>
+                    </wd:Competency_Data>
+                </wd:Competency>
+            </wd:Response_Data>
+        </wd:Get_Competencies_Response>
+    </env:Body>
+</env:Envelope>

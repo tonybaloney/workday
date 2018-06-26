@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Body>
+        <wd:Get_Development_Item_Status_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v30.1">
+            <wd:Response_Results>
+                <wd:Total_Results>4</wd:Total_Results>
+                <wd:Total_Pages>1</wd:Total_Pages>
+                <wd:Page_Results>4</wd:Page_Results>
+                <wd:Page>1</wd:Page>
+            </wd:Response_Results>
+            <wd:Response_Data>
+                <wd:Development_Item_Status>
+                    <wd:Development_Item_Status_Reference>
+                        <wd:ID wd:type="WID">1dea8723f1fc10c000168ee4b8b600a2</wd:ID>
+                        <wd:ID wd:type="Development_Item_Status__Tenanted_">DEVELOPMENT_ITEM_STATUS-3-1</wd:ID>
+                    </wd:Development_Item_Status_Reference>
+                    <wd:Development_Item_Status_Data>
+                        <wd:ID>DEVELOPMENT_ITEM_STATUS-3-1</wd:ID>
+                        <wd:Order>d</wd:Order>
+                        <wd:Status>No longer relevant</wd:Status>
+                        <wd:Maps_to_Workday_Status_Reference>
+                            <wd:ID wd:type="WID">1671c49c9e8a452094df66eb2e39307a</wd:ID>
+                            <wd:ID wd:type="Development_Item_Status">NOT_APPLICABLE</wd:ID>
+                        </wd:Maps_to_Workday_Status_Reference>
+                        <wd:Development_Item_Status_Inactive>0</wd:Development_Item_Status_Inactive>
+                    </wd:Development_Item_Status_Data>
+                </wd:Development_Item_Status>
+                <wd:Development_Item_Status>
+                    <wd:Development_Item_Status_Reference>
+                        <wd:ID wd:type="WID">1dea8723f1fc10c000168f0ee8ba00a3</wd:ID>
+                        <wd:ID wd:type="Development_Item_Status__Tenanted_">DEVELOPMENT_ITEM_STATUS-3-2</wd:ID>
+                    </wd:Development_Item_Status_Reference>
+                    <wd:Development_Item_Status_Data>
+                        <wd:ID>DEVELOPMENT_ITEM_STATUS-3-2</wd:ID>
+                        <wd:Order>c</wd:Order>
+                        <wd:Status>Complete</wd:Status>
+                        <wd:Maps_to_Workday_Status_Reference>
+                            <wd:ID wd:type="WID">0938e5106fbc456797ed815d87c2d4a9</wd:ID>
+                            <wd:ID wd:type="Development_Item_Status">COMPLETED</wd:ID>
+                        </wd:Maps_to_Workday_Status_Reference>
+                        <wd:Development_Item_Status_Inactive>0</wd:Development_Item_Status_Inactive>
+                    </wd:Development_Item_Status_Data>
+                </wd:Development_Item_Status>
+                <wd:Development_Item_Status>
+                    <wd:Development_Item_Status_Reference>
+                        <wd:ID wd:type="WID">1dea8723f1fc10c000168f2cec5800a4</wd:ID>
+                        <wd:ID wd:type="Development_Item_Status__Tenanted_">DEVELOPMENT_ITEM_STATUS-3-3</wd:ID>
+                    </wd:Development_Item_Status_Reference>
+                    <wd:Development_Item_Status_Data>
+                        <wd:ID>DEVELOPMENT_ITEM_STATUS-3-3</wd:ID>
+                        <wd:Order>b</wd:Order>
+                        <wd:Status>In Progress</wd:Status>
+                        <wd:Maps_to_Workday_Status_Reference>
+                            <wd:ID wd:type="WID">d0e177ede0094c41be70ae055617b759</wd:ID>
+                            <wd:ID wd:type="Development_Item_Status">IN_PROGRESS</wd:ID>
+                        </wd:Maps_to_Workday_Status_Reference>
+                        <wd:Development_Item_Status_Inactive>0</wd:Development_Item_Status_Inactive>
+                    </wd:Development_Item_Status_Data>
+                </wd:Development_Item_Status>
+                <wd:Development_Item_Status>
+                    <wd:Development_Item_Status_Reference>
+                        <wd:ID wd:type="WID">f4901389ddd901a8a257ea4baa22a78d</wd:ID>
+                        <wd:ID wd:type="Development_Item_Status__Tenanted_">DEVELOPMENT_ITEM_STATUS-3-4</wd:ID>
+                    </wd:Development_Item_Status_Reference>
+                    <wd:Development_Item_Status_Data>
+                        <wd:ID>DEVELOPMENT_ITEM_STATUS-3-4</wd:ID>
+                        <wd:Order>a</wd:Order>
+                        <wd:Status>Not Started</wd:Status>
+                        <wd:Maps_to_Workday_Status_Reference>
+                            <wd:ID wd:type="WID">d0e177ede0094c41be70ae055617b759</wd:ID>
+                            <wd:ID wd:type="Development_Item_Status">IN_PROGRESS</wd:ID>
+                        </wd:Maps_to_Workday_Status_Reference>
+                        <wd:Development_Item_Status_Inactive>0</wd:Development_Item_Status_Inactive>
+                    </wd:Development_Item_Status_Data>
+                </wd:Development_Item_Status>
+            </wd:Response_Data>
+        </wd:Get_Development_Item_Status_Response>
+    </env:Body>
+</env:Envelope>
