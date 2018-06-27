@@ -26,8 +26,47 @@ class WorkdayResponse(object):
     Response from the Workday API
     """
 
-    def __init__(self, response):
+    def __init__(self, response, service, method, called_args, called_kwargs):
+        """
+        :param response: The response from the API
+        :type  response: ``dict``
+
+        :param service: The web service that was callled
+        :type  service: :class:`zeep.proxy.ServiceProxy`
+
+        :param method: The name of the web method called
+        :type  method: ``str``
+
+        :param called_args: The arguments that were used to call the method
+        :type  called_args: ``list``
+
+        :param called_kwargs: The keyword-arguments that were used to call the method
+        :type  called_kwargs: ``dict``
+        """
+        self.service = service
+        self.method = method
+        self.called_args = called_args
+        self.called_kwargs = called_kwargs
         self._response = response
+
+    def __next__(self):
+        """
+        Use the iterator protocol as a way of returning paged
+        result sets
+        """
+        if self.page == self.total_pages:
+            raise StopIteration()
+        else:
+            result = getattr(self.service, self.method)(
+                *self.called_args, **self.called_kwargs
+            )
+            return WorkdayResponse(
+                result,
+                service=self.service,
+                method=self.method,
+                called_args=self.called_args,
+                called_kwargs=self.called_kwargs,
+            )
 
     @property
     def references(self):
@@ -94,7 +133,13 @@ class BaseSoapApiClient(object):
         def call_soap_method(*args, **kwargs):
             try:
                 result = getattr(self._client.service, attr)(*args, **kwargs)
-                return WorkdayResponse(result)
+                return WorkdayResponse(
+                    result,
+                    service=self._client.service,
+                    method=attr,
+                    called_args=args,
+                    called_kwargs=kwargs,
+                )
             except zeep.exceptions.Fault as fault:
                 raise WorkdaySoapApiError(fault)
 
