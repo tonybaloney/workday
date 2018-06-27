@@ -30,11 +30,9 @@ def main():
         )
 
     # print(client.talent.Get_Certification_Issuers().data)
-    certs = client.talent.Get_Certifications()
-    results = certs.data['Certification']
-    for page in range(1, certs.total_pages):
-        response = client.talent.Get_Certifications(Response_Filter={'Page': page+1})
-        results.extend(response.data['Certification'])
+    results = []
+    for certs in client.talent.Get_Certifications():
+        results.extend(certs.data['Certification'])
     print(results)
 
     # print(client.talent.Get_Competencies().data)

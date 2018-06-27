@@ -49,17 +49,30 @@ class WorkdayResponse(object):
         self.called_kwargs = called_kwargs
         self._response = response
 
+    def __iter__(self):
+        return self
+
     def __next__(self):
         """
         Use the iterator protocol as a way of returning paged
         result sets
         """
         if self.page == self.total_pages:
-            raise StopIteration()
+            raise StopIteration
         else:
+            # Add paging params if not already existing
+            if 'Response_Filter' not in self.called_kwargs:
+                self.called_kwargs['Response_Filter'] = {'Page': self.page+1}
+            else:
+                if 'Page' in self.called_kwargs['Response_Filter']:
+                    self.called_kwargs['Response_Filter']['Page'] += 1
+                else:
+                    self.called_kwargs['Response_Filter']['Page'] = self.page + 1
+
             result = getattr(self.service, self.method)(
                 *self.called_args, **self.called_kwargs
             )
+            self._response = result
             return WorkdayResponse(
                 result,
                 service=self.service,
@@ -67,6 +80,9 @@ class WorkdayResponse(object):
                 called_args=self.called_args,
                 called_kwargs=self.called_kwargs,
             )
+
+    def next(self):
+        return self.__next__()
 
     @property
     def references(self):
