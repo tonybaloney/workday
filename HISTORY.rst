@@ -2,6 +2,11 @@
 History
 =======
 
+0.4.0 (2018-06-27)
+------------------
+
+* Implemented paging by making WorkdayResponse objects iterable
+
 0.3.0 (2018-06-23)
 ------------------
 

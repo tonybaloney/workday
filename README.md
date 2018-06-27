@@ -12,6 +12,7 @@ This client
 * facilitates the authentication to a Workday SOAP API (Workday Web Services) and the parsing of data.
 * supports Anonymous, Basic HTTP and WS-Security (which is the prefered configuration in Workday)
 * allows the setup of multiple WWS endpoints
+* native paging support for all responses from the API using Python iterators
 
 # Configuring WSDLs
 
@@ -35,7 +36,16 @@ client = workday.WorkdayClient(
 users = client.hcm.Get_Users()
 ```
 
-Any calls to an API method will return an instance of `workday.client.WorkdayResponse`. If you want to page results, the paging data is in the response.
+Any calls to an API method will return an instance of `workday.client.WorkdayResponse`. 
+
+If you want to page results, an instance of `WorkdayResponse` is iterable, for example:
+
+```python
+results = []
+for certs in client.talent.Get_Certifications():  # Loops over all available pages
+    results.extend(certs.data['Certification'])
+print(results)
+```
 
 The data will be in the `data` property of any API response.
 
