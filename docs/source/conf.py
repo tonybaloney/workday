@@ -12,10 +12,11 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('./src'))
 
+import workday
 
 # -- Project information -----------------------------------------------------
 
@@ -24,9 +25,10 @@ copyright = '2018, Anthony Shaw'
 author = 'Anthony Shaw'
 
 # The short X.Y version
-version = ''
-# The full version, including alpha/beta/rc tags
-release = ''
+version = workday.__version__
+# The full version, including alpha/beta/rc tags.
+release = workday.__version__
+
 
 
 # -- General configuration ---------------------------------------------------
@@ -38,8 +40,8 @@ release = ''
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode']
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
