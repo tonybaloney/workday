@@ -39,6 +39,19 @@ def test_authentication():
 
 
 @pytest.fixture()
+def test_response_dict():
+    return {
+        "Response_Results": {
+            "Page": 1,
+            "Total_Pages": 2,
+            "Total_Results": 200,
+            "Page_Results": 100,
+        },
+        "Response_Data": {"TestData": [{"TestRecord": 1}]},
+    }
+
+
+@pytest.fixture()
 def workday_client(test_authentication, test_wsdl, mocker):
     class MockSoapClass(BaseMockClass):
         base_path = "tests/fixtures/v30_1"

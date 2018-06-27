@@ -61,13 +61,13 @@ class WorkdayResponse(object):
             raise StopIteration
         else:
             # Add paging params if not already existing
-            if 'Response_Filter' not in self.called_kwargs:
-                self.called_kwargs['Response_Filter'] = {'Page': self.page+1}
+            if "Response_Filter" not in self.called_kwargs:
+                self.called_kwargs["Response_Filter"] = {"Page": self.page + 1}
             else:
-                if 'Page' in self.called_kwargs['Response_Filter']:
-                    self.called_kwargs['Response_Filter']['Page'] += 1
+                if "Page" in self.called_kwargs["Response_Filter"]:
+                    self.called_kwargs["Response_Filter"]["Page"] += 1
                 else:
-                    self.called_kwargs['Response_Filter']['Page'] = self.page + 1
+                    self.called_kwargs["Response_Filter"]["Page"] = self.page + 1
 
             result = getattr(self.service, self.method)(
                 *self.called_args, **self.called_kwargs
@@ -86,11 +86,11 @@ class WorkdayResponse(object):
 
     @property
     def references(self):
-        return self._response["Request_References"]
+        return self._response.get("Request_References", None)
 
     @property
     def filter(self):
-        return self._response["Response_Filter"]
+        return self._response.get("Response_Filter", None)
 
     @property
     def total_results(self):

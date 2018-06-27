@@ -4,8 +4,8 @@
         <wd:Get_Competency_Categories_Response xmlns:wd="urn:com.workday/bsvc" wd:version="v30.1">
             <wd:Response_Results>
                 <wd:Total_Results>2</wd:Total_Results>
-                <wd:Total_Pages>8</wd:Total_Pages>
-                <wd:Page_Results>100</wd:Page_Results>
+                <wd:Total_Pages>2</wd:Total_Pages>
+                <wd:Page_Results>1</wd:Page_Results>
                 <wd:Page>1</wd:Page>
             </wd:Response_Results>
             <wd:Response_Data>

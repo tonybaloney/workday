@@ -45,7 +45,11 @@ def test_ssl_verification(test_wsdl, test_authentication):
     """
     Test that the client has SSL verification enabled by default
     """
-    client = workday.WorkdayClient(wsdls=test_wsdl, authentication=test_authentication, disable_ssl_verification=None)
+    client = workday.WorkdayClient(
+        wsdls=test_wsdl,
+        authentication=test_authentication,
+        disable_ssl_verification=None,
+    )
     assert client._session.verify == True
 
 
@@ -53,7 +57,11 @@ def test_disable_ssl_auth(test_wsdl, test_authentication):
     """
     Test that the client has SSL verification disabled if specified
     """
-    client = workday.WorkdayClient(wsdls=test_wsdl, authentication=test_authentication,disable_ssl_verification=True)
+    client = workday.WorkdayClient(
+        wsdls=test_wsdl,
+        authentication=test_authentication,
+        disable_ssl_verification=True,
+    )
     assert client._session.verify == False
 
 
@@ -62,7 +70,9 @@ def test_proxy_configuration(test_wsdl, test_authentication):
     Test that the client has a https proxy if specified
     """
     _PROXY_URL = "https://proxy.com:8888"
-    client = workday.WorkdayClient(wsdls=test_wsdl, authentication=test_authentication, proxy_url=_PROXY_URL)
+    client = workday.WorkdayClient(
+        wsdls=test_wsdl, authentication=test_authentication, proxy_url=_PROXY_URL
+    )
     assert client._session.proxies == {"https": _PROXY_URL}
 
 
