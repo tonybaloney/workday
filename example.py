@@ -16,7 +16,7 @@
 
 import yaml
 import workday
-from workday.auth import WsSecurityCredentialAuthentication
+from workday.auth import WsSecurityCredentialAuthentication, WsSecurityCertificateCredentialAuthentication
 
 
 def main():
@@ -25,15 +25,15 @@ def main():
 
     client = workday.WorkdayClient(
         wsdls=config['wsdls'], 
-        authentication=WsSecurityCredentialAuthentication(config['user'], config['password']),
+        authentication=WsSecurityCertificateCredentialAuthentication(config['user'], config['password'], private_certificate_path="privatekey.key", public_certificate_path="certificate.crt"),
         disable_ssl_verification=True, 
         )
 
-    # print(client.talent.Get_Certification_Issuers().data)
-    results = []
-    for certs in client.talent.Get_Certifications():
-        results.extend(certs.data['Certification'])
-    print(results)
+    print(client.talent.Get_Certification_Issuers().data)
+    #results = []
+    #for certs in client.talent.Get_Certifications():
+    #    results.extend(certs.data['Certification'])
+    #print(results)
 
     # print(client.talent.Get_Competencies().data)
     # print(client.talent.Get_Competency_Categories().data)
