@@ -112,6 +112,7 @@ def test_wssec_signature_authentication(test_wsdl):
         )
 
 
+@pytest.mark.xfail(reason="See #1")
 def test_wssec_signature_cred_authentication(test_wsdl):
     class WssecMockClass(BaseAuthMockSoapClass):
         def _api_test(self, request, url, method, params, headers):
