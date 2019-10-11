@@ -62,7 +62,7 @@ from workday.auth import AnonymousAuthentication
 anon = AnonymousAuthentication()
 
 client = workday.WorkdayClient(
-    authentiation=anon,
+    authentication=anon,
     ...
 )
 ```
@@ -76,7 +76,7 @@ from workday.auth import WsSecurityCredentialAuthentication
 auth = WsSecurityCredentialAuthentication('my_user@tenant_name', 'mypassword')
 
 client = workday.WorkdayClient(
-    authentiation=auth,
+    authentication=auth,
     ...
 )
 ```
@@ -89,7 +89,7 @@ from workday.auth import WsSecurityCertificateAuthentication
 auth = WsSecurityCertificateAuthentication('/path/to/private.key', '/path/to/public.key')
 
 client = workday.WorkdayClient(
-    authentiation=auth,
+    authentication=auth,
     ...
 )
 ```
@@ -106,7 +106,7 @@ auth = WsSecurityCertificateCredentialAuthentication(
     '/path/to/public.key')
 
 client = workday.WorkdayClient(
-    authentiation=auth,
+    authentication=auth,
     ...
 )
 ```
