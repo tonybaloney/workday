@@ -86,11 +86,11 @@ class WorkdayResponse(object):
 
     @property
     def references(self):
-        return self._response.get("Request_References", None)
+        return self._response["Request_References"]
 
     @property
     def filter(self):
-        return self._response.get("Response_Filter", None)
+        return self._response["Response_Filter"]
 
     @property
     def total_results(self):

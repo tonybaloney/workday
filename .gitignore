@@ -12,3 +12,4 @@ dist/
 .eggs/
 build/
 *.egg-info/
+/.idea/workspace.xml
